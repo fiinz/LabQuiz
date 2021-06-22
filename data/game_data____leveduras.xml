@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<game>
+
+
+  <level id="1">
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.18" y="0.53"/>
+    <waypoint id="1" x="0.35"  y="0.55"/>
+    <waypoint id="2" x="0.39"  y="0.75"/>
+    <waypoint id="3" x="0.69"  y="0.75"/>
+    <waypoint id="4" x="0.73" y="0.69"/>
+    <waypoint id="5" x="0.52" y="0.64"/>
+    <waypoint id="6" x="0.33" y="0.35"/>
+    <waypoint id="7" x="0.77" y="0.39"/>
+  </waypoints>
+  
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1" type="quiz">
+
+    <!-- identificar o numero da pergunta dentro do spot e qual a resposta true or false ? -->
+
+    <question id="0" awnser="false"> 
+
+      <!-- o texto da pergunta -->
+
+      <text><![CDATA[As leveduras são seres procarióticos.]]></text>
+      <!-- feedback positivo-->
+      <correct><![CDATA[As leveduras são seres eucarióticos, uma vez que são constituídos por células eucarióticas.]]></correct>
+      <!-- feedback negativo -->
+      <incorrect><![CDATA[As leveduras são seres eucarióticos, uma vez que são constituídos por células eucarióticas.]]></incorrect>
+
+    </question>
+
+
+
+
+
+
+
+    <question id="1" awnser="true">
+
+     <text><![CDATA[As <i>Saccharomyces cerevisiae</i> são leveduras utilizadas na obtenção de  alimentos.]]></text>
+     <correct><![CDATA[As <i>Saccharomyces cerevisiae</i> são leveduras utilizadas na obtenção de alguns alimentos, como o pão e a cerveja.]]></correct>
+     <incorrect><![CDATA[As <i>Saccharomyces cerevisiae</i> são leveduras utilizadas na obtenção de alguns alimentos, como o pão e a cerveja.]]></incorrect>
+
+   </question>
+
+   
+
+    <question id="2" awnser="false">
+
+     <text> <![CDATA[As leveduras reproduzem-se por bipartição.]]></text>
+     <correct><![CDATA[As leveduras reproduzem-se por gemulação.]]></correct>
+     <incorrect><![CDATA[As leveduras reproduzem-se por gemulação.]]></incorrect>
+
+   </question>
+
+
+
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[A temperatura ótima de crescimento das <i>Saccharomyces cerevisiae</i> é 28⁰C.]]></text>
+     <correct><![CDATA[A temperatura ótima de crescimento das <i>Saccharomyces cerevisiae</i> é 37⁰C.]]></correct>
+     <incorrect><![CDATA[A temperatura ótima de crescimento das <i>Saccharomyces cerevisiae</i> é 37⁰C.]]></incorrect>
+
+   </question>
+
+
+ </spot>
+
+
+ <spot id="1" waypoint="6" icon="1" type="quiz">
+
+  <question id="0" awnser="true">
+
+     <text><![CDATA[Uma célula de combustível microbiológica é um dispositivo que faz a conversão de energia química em energia elétrica.]]></text>
+     <correct><![CDATA[Numa célula microbiológica ocorre uma reação de oxidação-redução que permite um fluxo de eletrões por um circuito externo, originando uma corrente elétrica.]]></correct>
+     <incorrect><![CDATA[Numa célula microbiológica ocorre uma reação de oxidação-redução que permite um fluxo de eletrões por um circuito externo, originando uma corrente elétrica.]]></incorrect>
+
+   </question>
+
+   <question id="1" awnser="false">
+
+     <text><![CDATA[O funcionamento de uma célula de combustível tem por base uma reação de ácido-base.]]></text>
+     <correct><![CDATA[O funcionamento de uma célula microbiológica tem por base uma reação de oxidação-redução, devido à transferência de eletrões.]]></correct>
+     <incorrect><![CDATA[O funcionamento de uma célula microbiológica tem por base uma reação de oxidação-redução, devido à transferência de eletrões.]]></incorrect>
+
+   </question> 
+
+   <question id="2" awnser="true">
+
+     <text><![CDATA[Um processo de oxidação é sempre acompanhado por um processo de redução. ]]></text>
+     <correct><![CDATA[Os processos de oxidação e de redução nunca podem ocorrer de forma isolada.]]></correct>
+     <incorrect><![CDATA[Os processos de oxidação e de redução nunca podem ocorrer de forma isolada.]]></incorrect>
+
+   </question> 
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[Os processos de oxidação e de redução consistem na captação e libertação (total ou parcial) de eletrões, respetivamente.]]></text>
+     <correct><![CDATA[É ao contrário. A oxidação consiste na libertação total ou parcial de eletrões e a redução consiste na captação.]]></correct>
+     <incorrect><![CDATA[É ao contrário. A oxidação consiste na libertação total ou parcial de eletrões e a redução consiste na captação.]]></incorrect>
+
+   </question> 
+
+ 
+
+
+</spot>
+
+
+  <spot id="2"  waypoint="7" icon="2" type="challenge"/>
+
+</level>
+
+
+
+<level id="2" >
+
+<bossmessage>
+
+<positive id="0"><![CDATA[Foi pura sorte! Vamos ver se acertas a próxima pergunta!]]></positive>
+<positive id="1"><![CDATA[Sorte de principiante! O último a rir é quem ri melhor!]]></positive>
+<negative id="0"><![CDATA[Tens muito que estudar, para conseguires enfrentar-me!]]></negative>
+<negative id="1"><![CDATA[Falhaste! Eu sabia que ias falhar…]]></negative>
+
+
+</bossmessage>
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.54" y="0.79"/>
+    <waypoint id="1" x="0.61"  y="0.63"/>   
+    <waypoint id="2" x="0.40" y="0.39"/>   
+    <waypoint id="3" x="0.53" y="0.21"/> 
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="1" icon="1">
+
+    <question id="0" awnser="true">
+
+     <text><![CDATA[As leveduras são microrganismos anaeróbios facultativos.]]></text>
+     <correct><![CDATA[As leveduras são microrganismos anaeróbios facultativos porque apresentam mecanismos metabólicos capazes de possibilitar a vida em aerobiose e em anaerobiose.]]></correct>
+     <incorrect><![CDATA[As leveduras são microrganismos anaeróbios facultativos porque apresentam mecanismos metabólicos capazes de possibilitar a vida em aerobiose e em anaerobiose.]]></incorrect>
+
+   </question>
+
+  <question id="1" awnser="false">
+
+     <text><![CDATA[Em anaerobiose, as leveduras obtêm energia através de um processo denominado fermentação lática.]]></text>
+     <correct><![CDATA[Em anaerobiose, as leveduras obtêm energia através de um processo denominado fermentação alcoólica.]]></correct>
+     <incorrect><![CDATA[Em anaerobiose, as leveduras obtêm energia através de um processo denominado fermentação alcoólica.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="false">
+
+     <text><![CDATA[No processo de fabrico do pão, a massa fica lêveda em consequência da produção de ácido pirúvico.]]></text>
+     <correct><![CDATA[No processo de fabrico do pão, a massa fica lêveda em consequência da produção de etanol e dióxido de carbono, que ao ser libertado fica aprisionado na massa, provocando um aumento do seu volume.]]></correct>
+     <incorrect><![CDATA[No processo de fabrico do pão, a massa fica lêveda em consequência da produção de etanol e dióxido de carbono, que ao ser libertado fica aprisionado na massa, provocando um aumento do seu volume.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[Na fermentação alcoólica, tal como acontece na fermentação lática, ocorre a descarboxilação e redução do ácido pirúvico formado na glicólise.]]></text>
+     <correct><![CDATA[Na fermentação alcoólica há a descarboxilação do ácido pirúvico seguida da redução pelo NADH, enquanto que na fermentação lática ocorre apenas a redução pelo NADH.]]></correct>
+     <incorrect><![CDATA[Na fermentação alcoólica há a descarboxilação do ácido pirúvico seguida da redução pelo NADH, enquanto que na fermentação lática ocorre apenas a redução pelo NADH.]]></incorrect>
+
+   </question>
+
+
+
+  
+ </spot>
+
+ <spot id="1"  waypoint="2" icon="1">
+
+   <question id="0" awnser="true">
+
+     <text><![CDATA[Uma célula de combustível microbiológica contém sempre dois compartimentos, o cátodo e o ânodo.]]></text>
+     <correct><![CDATA[Uma célula de combustível tem que apresentar dois compartimentos, o ânodo, de onde saem os eletrões, e o cátodo, para onde se movem os eletrões.]]> 
+     </correct>
+     <incorrect><![CDATA[Uma célula de combustível tem que apresentar dois compartimentos, o ânodo, de onde saem os eletrões, e o cátodo, para onde se movem os eletrões.]]></incorrect>
+
+   </question>
+
+
+   <question id="1" awnser="false">
+
+     <text><![CDATA[O compartimento da pilha microbiológica onde ocorre a oxidação da glicose pelas leveduras designa-se por cátodo.]]></text>
+     <correct><![CDATA[O processo de oxidação ocorre no ânodo da célula.]]></correct>
+     <incorrect><![CDATA[O processo de oxidação ocorre no ânodo da célula.]]></incorrect>
+
+   </question>
+
+
+   <question id="2" awnser="false">
+
+     <text><![CDATA[Os eletrões resultantes da oxidação da glicose movem-se no ânodo para o cátodo através da membrana de permita catiónica.]]></text>
+     <correct><![CDATA[Os eletrões movem-se do ânodo para o cátodo através de um circuito externo de fios condutores. Através da membrana de permuta catiónica movem-se os protões, também resultantes da oxidação da glicose.]]></correct>
+     <incorrect><![CDATA[Os eletrões movem-se do ânodo para o cátodo através de um circuito externo de fios condutores. Através da membrana de permuta catiónica movem-se os protões, também resultantes da oxidação da glicose.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="true">
+
+     <text><![CDATA[Cada semi-pilha contém um elétrodo, que pode ser de grafite, que se encontra ligado ao circuito elétrico externo.]]></text>
+     <correct><![CDATA[Os elétrodos permitem a passagem dos eletrões do ânodo para o circuito externo e deste para o cátodo. A grafite pode ser usada uma vez que é um bom condutor elétrico.]]></correct>
+     <incorrect><![CDATA[Os elétrodos permitem a passagem dos eletrões do ânodo para o circuito externo e deste para o cátodo. A grafite pode ser usada uma vez que é um bom condutor elétrico.]]></incorrect>
+
+   </question>
+
+   
+
+   </spot>
+   
+     <spot id="2"  waypoint="3" icon="2" type="challenge"/>
+   
+   </level>
+   
+   <level id="3">
+
+
+<bossmessage>
+
+<positive id="0"><![CDATA[Esta era fácil! Quero ver se sabes responder às próximas perguntas!]]></positive>
+<positive id="1"><![CDATA[Desta vez acertaste, mas para a próxima vai ser bem mais difícil!]]></positive>
+<positive id="2"><![CDATA[Acertaste nesta, mas vou dificultar-te a vida!]]></positive>
+
+<negative id="0"><![CDATA[Pensas que sabes tudo mas não sabes! Eu sou o mais inteligente!!!]]></negative>
+<negative id="1"><![CDATA[Cada vez é mais difícil. Será que sabes tanto quanto pensas?]]></negative>
+<negative id="2"><![CDATA[Tens a mania que és sabichão, mas afinal não és tanto assim…]]></negative>
+
+
+</bossmessage>
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.66" y="0.83"/>
+<waypoint id="1" x="0.35" y="0.82"/>
+    <waypoint id="2" x="0.28" y="0.70"/>  
+<waypoint id="3" x="0.25" y="0.45"/>   
+<waypoint id="4" x="0.54" y="0.36"/>
+   <waypoint id="5" x="0.67" y="0.34"/>  
+<waypoint id="6" x="0.72" y="0.16"/>  
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1">
+
+    <question id="0" awnser="false">
+
+     <text><![CDATA[A fermentação alcoólica e a respiração celular ocorrem apenas na presença de oxigénio.]]></text>
+     <correct><![CDATA[A fermentação alcoólica ocorre apenas em anaerobiose, ou seja, na ausência de oxigénio.]]></correct>
+     <incorrect><![CDATA[A fermentação alcoólica ocorre apenas em anaerobiose, ou seja, na ausência de oxigénio.]]></incorrect>
+
+   </question>
+
+   <question id="1" awnser="true">
+
+     <text><![CDATA[O rendimento energético da fermentação alcoólica é de 2 ATP.]]></text>
+     <correct><![CDATA[Embora na fermentação alcoólica sejam produzidos 4 moléculas de ATP, 2 são gastas na ativação do processo, logo, o rendimento energético é de apenas de 2 ATP.]]></correct>
+     <incorrect><![CDATA[Embora na fermentação alcoólica sejam produzidos 4 moléculas de ATP, 2 são gastas na ativação do processo, logo, o rendimento energético é de apenas de 2 ATP.]]></incorrect>
+
+   </question>
+
+   <question id="2" awnser="false">
+
+     <text><![CDATA[Na fermentação alcoólica a oxidação da glicose é completa.]]></text>
+     <correct><![CDATA[A fermentação é uma via de degradação incompleta, o que leva à formação de moléculas que ainda possuem muita energia potencial.]]></correct>
+     <incorrect><![CDATA[A fermentação é uma via de degradação incompleta, o que leva à formação de moléculas que ainda possuem muita energia potencial.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[Na fermentação alcoólica ocorre a descarboxilação do ácido pirúvico e a libertação de oxigénio.]]></text>
+     <correct><![CDATA[Na fermentação alcoólica ocorre a descarboxilação do ácido pirúvico e a libertação dióxido de carbono.]]></correct>
+     <incorrect><![CDATA[Na fermentação alcoólica ocorre a descarboxilação do ácido pirúvico e a libertação dióxido de carbono.]]></incorrect>
+
+   </question>
+
+   
+
+ </spot>
+
+  <spot id="1"  waypoint="5" icon="1">
+
+    <question id="0" awnser="true">
+
+     <text><![CDATA[No cátodo ocorre a redução do hexacianoferrato (III) de potássio.]]></text>
+     <correct><![CDATA[Os eletrões libertados pelo ânodo são transferidos para o outro compartimento, o cátodo, provocando a redução da espécie química que lá se encontra.]]></correct>
+     <incorrect><![CDATA[Os eletrões libertados pelo ânodo são transferidos para o outro compartimento, o cátodo, provocando a redução da espécie química que lá se encontra.]]></incorrect>
+
+   </question>
+
+
+<question id="1" awnser="false">
+
+     <text><![CDATA[Se a espécie química hexacianoferrato (III) de potássio sofrer redução, o número de oxidação do elemento ferro aumenta.]]></text>
+     <correct><![CDATA[Num processo de redução ocorre captação de eletrões, provocando uma diminuição do número de oxidação.]]></correct>
+     <incorrect><![CDATA[Num processo de redução ocorre captação de eletrões, provocando uma diminuição do número de oxidação.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[No ânodo da célula de combustível microbiológica é comum adicionar-se um mediador de oxidação-redução, como o azul de metileno.]]></text>
+     <correct><![CDATA[A maioria das células de combustível microbiano necessitam de recorrer a mediadores que têm como função capturar os eletrões dos microrganismos e transferi-los para o elétrodo. As células que não contêm nenhum tipo de mediador produzem uma corrente muito fraca.]]></correct>
+     <incorrect><![CDATA[A maioria das células de combustível microbiano necessitam de recorrer a mediadores que têm como função capturar os eletrões dos microrganismos e transferi-los para o elétrodo. As células que não contêm nenhum tipo de mediador produzem uma corrente muito fraca.]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="true">
+
+     <text><![CDATA[Da oxidação da glicose pelas leveduras, na célula de combustível, libertam-se eletrões e protões que se transferem para o cátodo.]]></text>
+     <correct><![CDATA[Os eletrões transferem-se através do circuito elétrico externo e os protões através da membrana de permuta catiónica.]]></correct>
+     <incorrect><![CDATA[Os eletrões transferem-se através do circuito elétrico externo e os protões através da membrana de permuta catiónica.]]></incorrect>
+
+   </question>
+
+
+
+ </spot>
+ 
+      <spot id="2"  waypoint="6" icon="2" type="challenge"/>
+ 
+
+</level>
+   
+   
+    
+ <level id="4">
+ 
+<bossmessage>
+ <positive id="0"><![CDATA[Já chegaste até aqui… mas não sei se passas ao desafio final!]]></positive>
+<positive id="1"><![CDATA[Grrr… Podes estar perto, mas ainda tens muito que responder!]]></positive>
+<positive id="2"><![CDATA[Espera aí que já vais ver… nem penses que me consegues derrotar!]]></positive>
+
+<negative id="0"><![CDATA[Afinal, o prémio era só “lábia”! Deves ter feito “copy-paste”!]]></negative>
+<negative id="1"><![CDATA[Por este andar, duvido que consigas chegar até mim!]]></negative>
+<negative id="2"><![CDATA[As perguntas são difíceis e não é qualquer um que consegue acertar! ]]></negative>
+<negative id="3"><![CDATA[Não vais conseguir vencer-me! ]]></negative>
+
+</bossmessage>
+
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.78" y="0.73"/>
+    <waypoint id="1" x="0.62" y="0.69"/>
+	<waypoint id="2" x="0.59" y="0.54"/>
+	<waypoint id="3" x="0.73" y="0.22"/>   
+	<waypoint id="4" x="0.60" y="0.37"/> 
+  	<waypoint id="5" x="0.42" y="0.52"/>   
+    <waypoint id="6" x="0.30" y="0.74"/> 
+
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1">
+
+    <question id="0" awnser="true">
+
+     <text><![CDATA[O fermento do pão é constituído por leveduras.]]></text>
+     <correct><![CDATA[O fermento do pão é constituído por <i>Saccharomyces cerevisiae</i>, que são leveduras.]]></correct>
+     <incorrect><![CDATA[O fermento do pão é constituído por <i>Saccharomyces cerevisiae</i>, que são leveduras.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="false">
+
+     <text><![CDATA[A fermentação alcoólica ocorre na matriz mitocondrial das leveduras.]]></text>
+     <correct><![CDATA[A fermentação alcoólica ocorre no hialoplasma das leveduras.]]></correct>
+     <incorrect><![CDATA[A fermentação alcoólica ocorre no hialoplasma das leveduras.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[As leveduras fermentam açúcares produzindo etanol.]]></text>
+     <correct><![CDATA[As leveduras fermentam açúcares, produzindo etanol, processo denominado de fermentação alcoólica, o qual é utilizado no fabrico de bebidas alcoólicas, como a cerveja.]]></correct>
+     <incorrect><![CDATA[As leveduras fermentam açúcares, produzindo etanol, processo denominado de fermentação alcoólica, o qual é utilizado no fabrico de bebidas alcoólicas, como a cerveja.]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="false">
+
+     <text><![CDATA[Apenas existem 2 tipos de fermentação, a fermentação alcoólica e a fermentação lática.]]></text>
+     <correct><![CDATA[Existem outros tipos de fermentação, como por exemplo, fermentação acética ou a fermentação butírica.]]></correct>
+     <incorrect><![CDATA[Existem outros tipos de fermentação, como por exemplo, fermentação acética ou a fermentação butírica.]]></incorrect>
+
+   </question>
+
+
+
+ </spot>
+
+<spot id="1"  waypoint="5" icon="1">
+
+<question id="0" awnser="true">
+
+     <text><![CDATA[Uma célula de combustível microbiológica pode ter um curto período de funcionamento.]]></text>
+     <correct><![CDATA[Se não ocorrer a regeneração do combustível (neste caso a glicose), quando este se esgotar a célula deixa de produzir corrente elétrica. Esta situação pode ser melhorada se o combustível for adicionado em contínuo.]]></correct>
+     <incorrect><![CDATA[Se não ocorrer a regeneração do combustível (neste caso a glicose), quando este se esgotar a célula deixa de produzir corrente elétrica. Esta situação pode ser melhorada se o combustível for adicionado em contínuo.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[A temperatura é um dos fatores que influencia o rendimento de uma célula de combustível microbiológica.]]></text>
+     <correct><![CDATA[Os microrganismos apresentam uma temperatura ótima para o seu desenvolvimento, pois a temperaturas inferiores ou superiores apresentam taxas metabólicas diferentes.]]></correct>
+     <incorrect><![CDATA[Os microrganismos apresentam uma temperatura ótima para o seu desenvolvimento, pois a temperaturas inferiores ou superiores apresentam taxas metabólicas diferentes.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="false">
+
+     <text><![CDATA[Para medir a diferença de potencial nos terminais de uma pilha microbiológica pode utilizar-se um amperímetro.]]></text>
+     <correct><![CDATA[Para medir a diferença de potencial pode utilizar-se um voltímetro ou um multímetro. Os amperímetros apenas permitem medir a intensidade de corrente elétrica que percorre o circuito.]]></correct>
+     <incorrect><![CDATA[Para medir a diferença de potencial pode utilizar-se um voltímetro ou um multímetro. Os amperímetros apenas permitem medir a intensidade de corrente elétrica que percorre o circuito.]]></incorrect>
+
+   </question>
+
+  <question id="3" awnser="true">
+
+     <text><![CDATA[Os voltímetros permitem medir a diferença de potencial nos terminais de uma pilha, enquanto os amperímetros permitem medir a intensidade de corrente elétrica.]]></text>
+     <correct><![CDATA[Também se podem utilizar multímetros, os quais permitem medir as duas grandezas.]]></correct>
+     <incorrect><![CDATA[Também se podem utilizar multímetros, os quais permitem medir as duas grandezas.]]></incorrect>
+
+   </question>
+   
+   
+
+ </spot>
+       <spot id="2"  waypoint="6" icon="2" type="challenge"/>
+ 
+
+</level>
+
+
+
+ <level id="5">
+ 
+<bossmessage >
+<positive id="0"><![CDATA[Grrrr… Estás a acertar, mas ainda não viste nem um pouco da minha loucura!]]></positive>
+<positive id="1"><![CDATA[Sabes responder às perguntas, mas não te vais safar no desafio final!]]></positive>
+<positive id="2"><![CDATA[Estás quase a chegar até mim, mas eu vou fazer-te a vida negra!]]></positive>
+
+
+<negative id="0"><![CDATA[Mais uma resposta errada! Não conseguirás derrotar-me!]]></negative>
+<negative id="1"><![CDATA[Vais continuar aqui fechado até seres inteligente para me vencer!]]></negative>
+<negative id="2"><![CDATA[Ainda vais ter de voltar a jogar para me enfrentares! ]]></negative>
+
+</bossmessage>
+
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.53" y="0.80"/>
+	<waypoint id="1" x="0.63" y="0.54"/> 
+    <waypoint id="2" x="0.53" y="0.32"/>  
+	<waypoint id="3" x="0.51" y="0.18"/>   
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="1" icon="1">
+
+    <question id="0" awnser="false">
+
+     <text><![CDATA[As <i>Saccharomyces cerevisiae</i> têm de obter energia através da fermentação alcoólica, já que as suas células não possuem mitocôndrias.]]></text>
+     <correct><![CDATA[As <i>Saccharomyces cerevisiae</i> são seres eucarióticos, logo, as suas células possuem mitocôndrias.]]></correct>
+     <incorrect><![CDATA[As <i>Saccharomyces cerevisiae</i> são seres eucarióticos, logo, as suas células possuem mitocôndrias.]]></incorrect>
+
+   </question>
+
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[O fungo unicelular <i>Saccharomyces cerevisiae</i> é utilizado na produção de cerveja graças à sua capacidade de realizar fermentação alcoólica.]]></text>
+     <correct><![CDATA[As leveduras, como as <i>Saccharomyces cerevisiae</i>, são fungos unicelulares, os quais realizam fermentação alcoólica, e por isso são utilizados na produção de cerveja.]]></correct>
+     <incorrect><![CDATA[As leveduras, como as <i>Saccharomyces cerevisiae</i>, são fungos unicelulares, os quais realizam fermentação alcoólica, e por isso são utilizados na produção de cerveja.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="false">
+
+     <text><![CDATA[A fermentação é um processo de obtenção de energia que ocorre no hialoplasma e em que o recetor final de eletrões é uma molécula inorgânica.]]></text>
+     <correct><![CDATA[A fermentação é um processo de obtenção de energia que ocorre no hialoplasma mas em que o recetor final de eletrões é uma molécula orgânica, o ácido pirúvico.]]></correct>
+     <incorrect><![CDATA[A fermentação é um processo de obtenção de energia que ocorre no hialoplasma mas em que o recetor final de eletrões é uma molécula orgânica, o ácido pirúvico.]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="false">
+
+     <text><![CDATA[A fermentação é um processo comum às leveduras e às bactérias uma vez que, ambas, não possuem mitocôndrias.]]></text>
+     <correct><![CDATA[As leveduras, ao contrário das bactérias, são células eucarióticas e como tal possuem mitocôndrias.]]></correct>
+     <incorrect><![CDATA[As leveduras, ao contrário das bactérias, são células eucarióticas e como tal possuem mitocôndrias.]]></incorrect>
+
+   </question>
+
+
+
+
+ </spot>
+
+ <spot id="1"  waypoint="2" icon="1">
+
+
+<question id="0" awnser="false">
+
+     <text><![CDATA[Numa associação em paralelo de duas pilhas, o polo negativo de uma das pilhas está ligado ao polo positivo da outra pilha.]]></text>
+     <correct><![CDATA[Numa associação em paralelo, conectam-se os polos positivos das duas pilhas entre si e os polos negativos também entre si.]]></correct>
+     <incorrect><![CDATA[Numa associação em paralelo, conectam-se os polos positivos das duas pilhas entre si e os polos negativos também entre si.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="false">
+
+     <text><![CDATA[A diferença de potencial nos terminais de uma associação de pilhas em série é igual à diferença de potencial nos terminais de cada uma dessas pilhas.]]></text>
+     <correct><![CDATA[A diferença de potencial nos terminais de uma associação de pilhas em série é igual à soma da diferença de potencial nos terminais de cada uma das pilhas. Numa associação de pilhas em paralelo é que é igual.]]></correct>
+     <incorrect><![CDATA[A diferença de potencial nos terminais de uma associação de pilhas em série é igual à soma da diferença de potencial nos terminais de cada uma das pilhas. Numa associação de pilhas em paralelo é que é igual.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="false">
+
+     <text><![CDATA[Numa associação em série de pilhas, a intensidade de corrente elétrica que percorre o circuito é igual à soma da intensidade de corrente que percorre cada uma das pilhas.]]></text>
+     <correct><![CDATA[A intensidade de corrente elétrica que percorre o circuito é igual à intensidade de corrente que percorre cada uma das pilhas.]]></correct>
+     <incorrect><![CDATA[A intensidade de corrente elétrica que percorre o circuito é igual à intensidade de corrente que percorre cada uma das pilhas.]]></incorrect>
+
+   </question>
+
+<question id="3" awnser="true">
+
+     <text><![CDATA[A intensidade de corrente elétrica corresponde à quantidade de carga elétrica que atravessa a secção reta de um condutor por unidade de tempo. ]]></text>
+     <correct><![CDATA[Quanto maior a quantidade de carga elétrica que atravessa a secção reta de um condutor por unidade de tempo, maior a intensidade de corrente.]]></correct>
+     <incorrect><![CDATA[Quanto maior a quantidade de carga elétrica que atravessa a secção reta de um condutor por unidade de tempo, maior a intensidade de corrente.]]></incorrect>
+
+   </question>
+
+
+
+</spot>
+
+       <spot id="2"  waypoint="3" icon="2" type="challenge"/>
+
+
+</level>
+
+
+
+
+
+</game>

@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<game>
+
+
+  <level id="1">
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.18" y="0.53"/>
+    <waypoint id="1" x="0.35"  y="0.55"/>
+    <waypoint id="2" x="0.39"  y="0.75"/>
+    <waypoint id="3" x="0.69"  y="0.75"/>
+    <waypoint id="4" x="0.73" y="0.69"/>
+    <waypoint id="5" x="0.52" y="0.64"/>
+    <waypoint id="6" x="0.33" y="0.35"/>
+    <waypoint id="7" x="0.77" y="0.39"/>
+  </waypoints>
+  
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1" type="quiz">
+
+    <!-- identificar o numero da pergunta dentro do spot e qual a resposta true or false ? -->
+
+    <question id="0" awnser="false"> 
+
+      <!-- o texto da pergunta -->
+
+      <text><![CDATA[Todas as bactérias que temos no nosso corpo são prejudiciais.]]></text>
+      <!-- feedback positivo-->
+      <correct><![CDATA[Nem todas as bactérias são prejudiciais.Existem algumas que possuem características que até nos podem ajudar.]]></correct>
+      <!-- feedback negativo -->
+      <incorrect><![CDATA[Nem todas as bactérias são prejudiciais.Existem algumas que possuem características que até nos podem ajudar.]]></incorrect>
+
+    </question>
+
+    <question id="1" awnser="true">
+
+     <text><![CDATA[Há 4 grupos sanguíneos: A, B, AB e O.]]></text>
+     <correct><![CDATA[Há 4 grupos sanguíneos: A, B, AB e O.]]></correct>
+     <incorrect><![CDATA[Há 4 grupos sanguíneos: A, B, AB e O.]]></incorrect>
+
+   </question>
+
+   
+
+    <question id="2" awnser="true">
+
+     <text> <![CDATA[Os ovos do piolho são conhecidos como lêndeas.]]></text>
+     <correct><![CDATA[Os ovos do piolho são conhecidos como lêndeas. Já agora, estes ovos demoram 4 dias a incubar.]]></correct>
+     <incorrect><![CDATA[Os ovos do piolho são mesmo conhecidos como lêndeas. Já agora, estes ovos demoram 4 dias a incubar.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[Uma maior exposição a sol aumenta a probabilidade de se ter défice de vitamina D.]]></text>
+     <correct><![CDATA[A falta de exposição solar é que aumenta o risco de deficiência em vitamina D.]]></correct>
+     <incorrect><![CDATA[A falta de exposição solar é que aumenta o risco de deficiência em vitamina D.]]></incorrect>
+
+   </question>
+
+   <question id="4" awnser="true">
+
+     <text><![CDATA[Um polígono regular é uma figura geométrica com todos os lados iguais.]]></text>
+     <correct><![CDATA[Um polígono regular é mesmo uma figura geométrica com todos os lados iguais.]]></correct>
+     <incorrect><![CDATA[Um polígono regular é uma figura geométrica com todos os lados iguais.]]></incorrect>
+
+   </question>  
+
+   <question id="5" awnser="true">
+
+     <text><![CDATA[Os anfíbios têm um papel fundamental na manutenção do equilíbrio dos ecossistemas.]]></text>
+     <correct><![CDATA[Seja como predadores ou como presas, os anfíbios ajudam no equilíbrio dos ecossistemas.]]></correct> 
+     <incorrect><![CDATA[Seja como predadores ou como presas, os anfíbios ajudam no equilíbrio dos ecossistemas.]]></incorrect>
+
+   </question> 
+
+   <question id="6" awnser="true">
+
+     <text><![CDATA[Quanto mais seco o alimento, mais difícil é que ele se estrague.]]></text>
+     <correct><![CDATA[A ação dos micro-organismos que podem provocar toxi-infeções alimentares é mais difícil nos alimentos mais secos, como por exemplo as bolachas.]]></correct>
+     <incorrect><![CDATA[A ação dos micro-organismos que podem provocar toxi-infeções alimentares é mais difícil nos alimentos mais secos, como por exemplo as bolachas.]]></incorrect>
+
+   </question> 
+
+   <question id="7" awnser="true">
+
+     <text><![CDATA[O oxigénio, o carbono e o ferro fazem parte da tabela periódica.]]></text>
+     <correct><![CDATA[O oxigénio, o carbono e o ferro são elementos químicos que fazem parte da tabela periódica.]]></correct>
+     <incorrect><![CDATA[O oxigénio, o carbono e o ferro são elementos químicos que fazem parte da tabela periódica.]]></incorrect>
+
+   </question> 
+
+   <question id="8" awnser="true">
+
+     <text><![CDATA[Cada um de nós tem, ao todo, 23 pares de cromossomas.]]></text>
+     <correct><![CDATA[De facto, cada indivíduo tem 23 pares de cromossomas, 22 dos quais são idênticos no homem e na mulher.]]></correct>
+     <incorrect><![CDATA[De facto, cada indivíduo tem 23 pares de cromossomas, 22 dos quais são idênticos no homem e na mulher.]]></incorrect>
+
+   </question> 
+
+   <question id="9" awnser="true">
+
+     <text><![CDATA[Ressonar de forma intensa pode ser sintoma de uma doença designada por “apneia do sono”.]]></text>
+     <correct><![CDATA[Um dos sintomas da apneia do sono pode ser o ressonar intenso.]]></correct>
+     <incorrect><![CDATA[Um dos sintomas da apneia do sono pode ser o ressonar intenso.]]></incorrect>
+
+   </question> 
+
+   <question id="10" awnser="true">
+
+     <text><![CDATA[Cada impressão digital é única.]]></text>
+     <correct><![CDATA[Todas as pessoas têm impressões digitais diferentes.]]></correct>
+     <incorrect><![CDATA[Todas as pessoas têm impressões digitais diferentes.]]></incorrect>
+
+   </question>  
+
+   <question id="11" awnser="false">
+
+     <text><![CDATA[A sardinha tem uma gordura que pode causar problemas cardiovasculares.]]></text>
+     <correct><![CDATA[A sardinha é rica num tipo de gordura que contribui para a saúde cardiovascular.]]></correct>
+     <incorrect><![CDATA[A sardinha é, pelo contrário, rica num tipo de gordura que contribui para a saúde cardiovascular.]]></incorrect>
+
+   </question>  
+
+   <question id="12" awnser="true">
+
+     <text><![CDATA[A acne é uma doença dermatológica que afeta sobretudo adolescentes e jovens.]]></text>
+     <correct><![CDATA[A acne atinge sobretudo adolescentes e jovens, embora também possa afetar adultos.]]></correct>
+     <incorrect><![CDATA[A acne atinge sobretudo adolescentes e jovens, embora também possa afetar adultos.]]></incorrect>
+
+   </question> 
+
+   <question id="13" awnser="true">
+
+     <text><![CDATA[O ruído nas cidades afeta a comunicação entre as aves que cantam.]]></text>
+     <correct><![CDATA[A comunicação entre as aves que cantam é afetada pelo ruído nas cidades.]]></correct>
+     <incorrect><![CDATA[A comunicação entre as aves que cantam é afetada pelo ruído nas cidades.]]></incorrect>
+
+   </question>
+
+   <question id="14" awnser="false">
+
+     <text><![CDATA[No interior da Terra existe lava.]]></text>
+     <correct><![CDATA[No interior da Terra, o mesmo material rochoso no estado fluido chama-se “magma” e não “lava”.]]></correct>
+     <incorrect><![CDATA[No interior da Terra, o mesmo material rochoso no estado fluido chama-se “magma” e não “lava”.]]></incorrect>
+
+   </question>
+
+   <question id="15" awnser="false">
+
+     <text><![CDATA[Recomenda-se um consumo de sal até 20 gramas por dia.]]></text>
+     <correct><![CDATA[A ingestão de sal deve ser evitada, recomendando-se que não ultrapasse os 5 gramas por dia.]]></correct>
+     <incorrect><![CDATA[A ingestão de sal deve ser evitada, recomendando-se que não ultrapasse os 5 gramas por dia.]]></incorrect>
+
+   </question> 
+
+   <question id="16" awnser="true">
+
+     <text><![CDATA[Não vivem, de forma permanente, pessoas na Antártica.]]></text>
+     <correct><![CDATA[Apenas alguns cientistas habitam temporariamente a Antártica durante a sua investigação.]]></correct>
+     <incorrect><![CDATA[Apenas alguns cientistas habitam temporariamente a Antártica durante a sua investigação.]]></incorrect>
+
+   </question> 
+
+   <question id="17" awnser="false">
+
+     <text><![CDATA[Desde o seu início, o processo de mumificação podia ser realizado em qualquer egípcio.]]></text>
+     <correct><![CDATA[Inicialmente só se realizavam mumificações a faraós, pelo que só mais tarde se estendeu à restante elite.]]></correct>
+     <incorrect><![CDATA[Inicialmente só se realizavam mumificações a faraós, pelo que só mais tarde se estendeu à restante elite.]]></incorrect>
+
+   </question>
+
+   <question id="18" awnser="true">
+
+     <text><![CDATA[A descoberta dos antibióticos, uma das maiores revoluções no campo da saúde, ocorreu no século XX.]]></text>
+     <correct><![CDATA[A descoberta dos antibióticos ocorreu no século XX, mais precisamente em 1928 com a invenção da Penicilina.]]></correct>
+     <incorrect><![CDATA[A descoberta dos antibióticos ocorreu no século XX, mais precisamente em 1928 com a invenção da Penicilina.]]></incorrect>
+
+   </question> 
+
+   <question id="19" awnser="true">
+
+     <text><![CDATA[O pneu começou por ser usado nas bicicletas e só mais tarde foi adaptado para o automóvel.]]></text>
+     <correct><![CDATA[O pneu começou por ser usado nas bicicletas e só mais tarde foi adaptado para o automóvel.]]></correct>
+     <incorrect><![CDATA[O pneu começou por ser usado nas bicicletas e só mais tarde foi adaptado para o automóvel.]]></incorrect>
+
+   </question>
+
+
+ </spot>
+
+
+ <spot id="1" waypoint="6" icon="1" type="quiz">
+
+  <question id="0" awnser="true">
+
+     <text><![CDATA[Dengue e malária são doenças transmitidas por mosquitos.]]></text>
+     <correct><![CDATA[Dengue e malária são duas das doenças que podem ser transmitidas pela picada de vetores, como, por exemplo,  moscas, mosquitos e carraças.]]></correct>
+     <incorrect><![CDATA[Dengue e malária são duas das doenças que podem ser transmitidas pela picada de vetores, como, por exemplo,  moscas, mosquitos e carraças.]]></incorrect>
+
+   </question>
+
+   <question id="1" awnser="false">
+
+     <text><![CDATA[A cortiça é um dos materiais extraídos do castanheiro.]]></text>
+     <correct><![CDATA[A cortiça é proveniente da casca do sobreiro.]]></correct>
+     <incorrect><![CDATA[A cortiça é proveniente da casca do sobreiro.]]></incorrect>
+
+   </question> 
+
+   <question id="2" awnser="false">
+
+     <text><![CDATA[<i>Salmonella</i> é uma antiga técnica de conservar a carne em sal, evitando a contaminação por bactérias.]]></text>
+     <correct><![CDATA[<i>Salmonellas</i> são bactérias muito perigosas, que podem estar presentes, por exemplo, nos ovos caseiros.]]></correct>
+     <incorrect><![CDATA[<i>Salmonellas</i> são bactérias muito perigosas, que podem estar presentes, por exemplo, nos ovos caseiros.]]></incorrect>
+
+   </question> 
+
+   <question id="3" awnser="true">
+
+     <text><![CDATA[Uma pessoa obesa tem um risco maior de desenvolver diabetes do que uma pessoa com peso normal.]]></text>
+     <correct><![CDATA[A obesidade triplica o risco de desenvolver diabetes.]]></correct>
+     <incorrect><![CDATA[A obesidade triplica, de facto, o risco de desenvolver diabetes.]]></incorrect>
+
+   </question> 
+
+   <question id="4" awnser="true">
+
+     <text><![CDATA[Ter tido um acidente vascular cerebral (AVC) é um fator de risco para ter outro.]]></text>
+     <correct><![CDATA[Após um acidente vascular cerebral, o risco de a pessoa sofrer um outro AVC é aumentado.]]></correct>
+     <incorrect><![CDATA[Após um acidente vascular cerebral, o risco de a pessoa sofrer um outro AVC é aumentado.]]></incorrect>
+
+   </question> 
+
+   <question id="5" awnser="true">
+
+     <text><![CDATA[Os antigos egípcios acreditavam na vida após a morte.]]></text>
+     <correct><![CDATA[Para os antigos egípcios, o túmulo mais não era que a extensão da sua casa, dado que a vida continuaria no além.]]></correct>
+     <incorrect><![CDATA[Para os antigos egípcios, o túmulo mais não era que a extensão da sua casa, dado que a vida continuaria no além.]]></incorrect>
+
+   </question> 
+
+   <question id="6" awnser="false">
+
+     <text><![CDATA[A genealogia é um instrumento de rigor científico que permite estudar doenças genéticas.]]></text>
+     <correct><![CDATA[A genealogia ajuda a perceber de quem descendemos, reconstruindo gerações.]]></correct>
+     <incorrect><![CDATA[A genealogia ajuda a perceber de quem descendemos, reconstruindo gerações.]]></incorrect>
+
+   </question> 
+
+  
+
+    <question id="7" awnser="true">
+
+     <text><![CDATA[Náuseas, boca seca, falta de ar, tremuras e desconforto gastrointestinal são alguns dos sintomas de ansiedade.]]></text>
+     <correct><![CDATA[A ansiedade pode, de facto, provocar uma série de sintomas a nível corporal, como os que foram descritos.]]></correct>
+     <incorrect><![CDATA[A ansiedade pode mesmo provocar uma série de sintomas a nível corporal, como os que foram descritos.]]></incorrect>
+
+   </question>  
+
+   <question id="8" awnser="true">
+
+     <text><![CDATA[O fígado é dos órgãos mais afetados pela ingestão de álcool.]]></text>
+     <correct><![CDATA[O fígado é um dos órgãos mais afetados pela ingestão do álcool, sendo o responsável pela sua metabolização.]]></correct>
+     <incorrect><![CDATA[O fígado é mesmo um dos órgãos mais afetados pela ingestão do álcool, sendo o responsável pela sua metabolização.]]></incorrect>
+
+   </question> 
+   <question id="9" awnser="true">
+
+     <text><![CDATA[Os abutres são aves de rapina necrófagas.]]></text>
+     <correct><![CDATA[O abutre é de facto uma ave de rapina necrófaga, ou seja, que se alimenta de cadáveres.]]></correct>
+     <incorrect><![CDATA[O abutre é de facto uma ave de rapina necrófaga, ou seja, que se alimenta de cadáveres.]]></incorrect>
+
+   </question>
+
+   <question id="10" awnser="false">
+
+     <text><![CDATA[A atmosfera terrestre contém apenas oxigénio.]]></text>
+     <correct><![CDATA[A atmosfera terrestre não contém só oxigénio. Contém vários outros gases, sendo que o principal é o azoto.]]></correct>
+     <incorrect><![CDATA[A atmosfera terrestre não contém só oxigénio. Contém vários outros gases, sendo que o principal é o azoto.]]></incorrect>
+
+   </question> 
+
+   <question id="11" awnser="true">
+
+     <text><![CDATA[O Hubble é um telescópio espacial.]]></text>
+     <correct><![CDATA[O Hubble é, de facto, um telescópio espacial que permitiu por exemplo encontrar água na atmosfera de cinco planetas distantes.]]></correct>
+     <incorrect><![CDATA[O Hubble é um telescópio espacial que permitiu por exemplo encontrar água na atmosfera de cinco planetas distantes.]]></incorrect>
+
+   </question>
+
+   <question id="12" awnser="true">
+
+     <text><![CDATA[A expressão “banha da cobra” deriva de mezinhas feitas com serpentes e usadas para tratar diversas maleitas.]]></text>
+     <correct><![CDATA[A expressão “Banha da cobra” deriva, efetivamente, de mezinhas feitas com gordura de serpentes, usadas ainda hoje.]]></correct>
+     <incorrect><![CDATA[A expressão “Banha da cobra” deriva, efetivamente, de mezinhas feitas com gordura de serpentes, usadas ainda hoje.]]></incorrect>
+
+   </question> 
+
+  
+
+   <question id="13" awnser="false">
+
+     <text><![CDATA[Os morcegos não veem.]]></text>
+     <correct><![CDATA[Todos os morcegos veem, uns melhor que os outros. Muitas espécies orientam-se apenas pela visão.]]></correct>
+     <incorrect><![CDATA[Todos os morcegos veem, uns melhor que os outros. Muitas espécies orientam-se apenas pela visão.]]></incorrect>
+
+   </question>
+
+   <question id="14" awnser="true">
+
+     <text><![CDATA[A malária é uma doença transmitida por um mosquito.]]></text>
+     <correct><![CDATA[A malária é uma doença que pode ser transmitida ao ser humano através de cinco espécies do mosquito <i>Plasmodium</i>.]]></correct> 
+     <incorrect><![CDATA[A malária é uma doença que pode ser transmitida ao ser humano através de cinco espécies do mosquito <i>Plasmodium</i>.]]></incorrect>
+
+   </question>
+
+</spot>
+
+
+  <spot id="2"  waypoint="7" icon="2" type="challenge"/>
+
+</level>
+
+
+
+<level id="2" >
+
+<bossmessage>
+
+<positive id="0"><![CDATA[Foi pura sorte! Vamos ver se acertas a próxima pergunta!]]></positive>
+<positive id="1"><![CDATA[Sorte de principiante! O último a rir é quem ri melhor!]]></positive>
+<negative id="0"><![CDATA[Tens muito que estudar, para conseguires enfrentar-me!]]></negative>
+<negative id="1"><![CDATA[Falhaste! Eu sabia que ias falhar…]]></negative>
+
+
+</bossmessage>
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.54" y="0.79"/>
+    <waypoint id="1" x="0.61"  y="0.63"/>   
+    <waypoint id="2" x="0.40" y="0.39"/>   
+    <waypoint id="3" x="0.53" y="0.21"/> 
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="1" icon="1">
+
+    <question id="0" awnser="false">
+
+     <text><![CDATA[É aconselhável colocar uma moeda de cobre em cima de uma picada de abelha.]]></text>
+     <correct><![CDATA[Colocar moedas em cima de picadas é totalmente ineficaz e desaconselhado, podendo mesmo causar infeções.]]></correct>
+     <incorrect><![CDATA[Colocar moedas em cima de picadas é totalmente ineficaz e desaconselhado, podendo mesmo causar infeções.]]></incorrect>
+
+   </question>
+
+  <question id="1" awnser="false">
+
+     <text><![CDATA[Segundo a nomenclatura binomial de Lineu, o nome científico de uma espécie pode ser constituído por uma ou duas palavras.]]></text>
+     <correct><![CDATA[Segundo a nomenclatura binomial de Lineu, o nome científico de uma espécie tem duas palavras: a primeira corresponde ao nome do género e a segunda à da espécie.]]></correct>
+     <incorrect><![CDATA[Segundo a nomenclatura binomial de Lineu, o nome científico de uma espécie tem duas palavras: a primeira corresponde ao nome do género e a segunda à da espécie.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[A criptografia é a forma de passar uma mensagem de uma forma original para uma codificada, apenas compreensível para quem tiver uma “chave” decifradora.]]></text>
+     <correct><![CDATA[A criptografia é de facto a forma de passar uma mensagem de uma forma original para uma codificada, apenas compreensível para quem tiver uma “chave” decifradora.]]></correct>
+     <incorrect><![CDATA[A criptografia é de facto a forma de passar uma mensagem de uma forma original para uma codificada, apenas compreensível para quem tiver uma “chave” decifradora]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="true">
+
+     <text><![CDATA[A melanina é a principal responsável pela cor da nossa pele.]]></text>
+     <correct><![CDATA[A cor da nossa pele, bem como a dos olhos e a do cabelo, deve-se à melanina.]]></correct>
+     <incorrect><![CDATA[A cor da nossa pele, bem como a dos olhos e a do cabelo, deve-se mesmo à melanina.]]></incorrect>
+
+   </question>
+
+<question id="4" awnser="true">
+
+     <text><![CDATA[Os cromossomas são constituídos por diferentes genes.]]></text>
+     <correct><![CDATA[Os cromossomas são constituídos por diferentes genes, que são unidades básicas de informação genética.]]></correct>
+     <incorrect><![CDATA[Os cromossomas são constituídos por diferentes genes, que são unidades básicas de informação genética.]]></incorrect>
+
+   </question>
+
+   <question id="5" awnser="false">
+
+     <text><![CDATA[“Peróxido de potássio” é o mesmo que água oxigenada.]]></text>
+     <correct><![CDATA[“Peróxido de hidrogénio” é que é o mesmo que a água oxigenada.]]></correct>
+     <incorrect><![CDATA[“Peróxido de hidrogénio” é que é o mesmo que a água oxigenada.]]></incorrect>
+
+   </question>
+
+   <question id="6" awnser="true">
+
+     <text><![CDATA[Um anuro é um anfíbio sem cauda.]]></text>
+     <correct><![CDATA[Um anfíbio sem cauda tem por nome “anuro”.]]></correct>
+     <incorrect><![CDATA[Um anfíbio sem cauda tem por nome “anuro”.]]></incorrect>
+
+   </question>
+
+   <question id="7" awnser="true">
+
+     <text><![CDATA[A fórmula E=MC2 é atribuída a Albert Einstein.]]></text>
+     <correct><![CDATA[A fórmula E=MC2, que define a relação entre massa e energia é, de facto, atribuída a Albert Einstein.]]></correct>
+     <incorrect><![CDATA[A fórmula E=MC2, que define a relação entre massa e energia é, de facto, atribuída a Albert Einstein.]]></incorrect>
+
+   </question>
+
+   <question id="8" awnser="true">
+
+     <text><![CDATA[“A dose faz o veneno”. É uma frase atribuída a Paracelso.]]></text>
+     <correct><![CDATA[Foi uma frase dita por Paracelso, um médico, há mais de 400 anos.]]></correct>
+     <incorrect><![CDATA[Foi uma frase dita por Paracelso, um médico, há mais de 400 anos.]]></incorrect>
+
+   </question>
+
+   <question id="9" awnser="true">
+
+     <text><![CDATA[Os alfaiates são insetos que se distinguem pela capacidade de caminhar sobre a água.]]></text>
+     <correct><![CDATA[Estes insetos caminham sobre a água, tirando proveito da tensão superficial que nela existe.]]></correct>
+     <incorrect><![CDATA[Estes insetos caminham sobre a água, tirando proveito da tensão superficial que nela existe.]]></incorrect>
+
+   </question>
+
+   <question id="10" awnser="true">
+
+     <text><![CDATA[A paramiloidose também se designa por “doença dos pezinhos”.]]></text>
+     <correct><![CDATA[Paramiloidose, doença dos pezinhos e polineuropatia amiloidótica familiar são a mesma doença.]]></correct>
+     <incorrect><![CDATA[Paramiloidose, doença dos pezinhos e polineuropatia amiloidótica familiar são a mesma doença.]]></incorrect>
+
+   </question>
+
+   <question id="11" awnser="true">
+
+     <text><![CDATA[Fojos eram armadilhas em pedra usadas antigamente na captura do lobo.]]></text>
+     <correct><![CDATA[Fojos eram de facto armadilhas em pedra usadas antigamente na captura do lobo.]]></correct>
+     <incorrect><![CDATA[Fojos eram mesmo armadilhas em pedra usadas antigamente na captura do lobo.]]></incorrect>
+
+   </question>
+
+   <question id="12" awnser="false">
+
+     <text><![CDATA[A tabela periódica é constituída atualmente por cerca de 48 elementos químicos.]]></text>
+     <correct><![CDATA[Existem atualmente 118 elementos químicos conhecidos e registados na tabela periódica.]]></correct>
+     <incorrect><![CDATA[Existem atualmente 118 elementos químicos conhecidos e registados na tabela periódica.]]></incorrect>
+
+   </question>
+
+   <question id="13" awnser="false">
+
+     <text><![CDATA[A cerveja faz crescer a barriga.]]></text>
+     <correct><![CDATA[Não está provado cientificamente que a ingestão moderada de cerveja faça aumentar a barriga.]]></correct>
+     <incorrect><![CDATA[Não está provado cientificamente que a ingestão moderada de cerveja faça aumentar a barriga.]]></incorrect>
+
+   </question>
+
+   <question id="14" awnser="true">
+
+     <text><![CDATA[Na Terra, a gravidade não é completamente uniforme.]]></text>
+     <correct><![CDATA[Na Terra, a gravidade não é completamente uniforme, pois não se trata de uma esfera perfeita.]]></correct>
+     <incorrect><![CDATA[Na Terra, a gravidade não é completamente uniforme, pois não se trata de uma esfera perfeita.]]></incorrect>
+
+   </question>
+
+   <question id="15" awnser="false">
+
+     <text><![CDATA[O macho de pato-real é todo castanho e a fêmea apresenta a cabeça verde.]]></text>
+     <correct><![CDATA[Os machos apresentam a cabeça verde e a fêmea é toda castanha.]]></correct>
+     <incorrect><![CDATA[Os machos apresentam a cabeça verde e a fêmea é toda castanha.]]></incorrect>
+
+   </question>
+
+
+   <question id="16" awnser="false">
+
+     <text><![CDATA[Dormir pouco pode contribuir para emagrecer.]]></text>
+     <correct><![CDATA[Poucas horas de sono podem levar a um descontrolo do apetite e a um aumento da obesidade.]]></correct>
+     <incorrect><![CDATA[Poucas horas de sono podem levar a um descontrolo do apetite e a um aumento da obesidade.]]></incorrect>
+
+   </question>
+
+
+   <question id="17" awnser="true">
+
+     <text><![CDATA[<i>Canis Lupus signatus</i> é o nome científico do lobo ibérico.]]></text>
+     <correct><![CDATA[O nome científico do lobo ibérico é <i>Canis lupus signatus</i>.Esta subespécie foi descrita por Cabrera em 1907.]]></correct>
+     <incorrect><![CDATA[O nome científico do lobo ibérico é <i>Canis lupus signatus</i>.Esta subespécie foi descrita por Cabrera em 1907.]]></incorrect>
+
+   </question>
+
+   <question id="18" awnser="false">
+
+     <text><![CDATA[A dor está sempre associada à existência de uma lesão.]]></text>
+     <correct><![CDATA[Pode de facto haver dor mesmo não existindo uma lesão.]]></correct>
+     <incorrect><![CDATA[Pode haver dor mesmo não existindo uma lesão.]]></incorrect>
+
+   </question>
+
+  
+ </spot>
+
+ <spot id="1"  waypoint="2" icon="1">
+
+   <question id="0" awnser="true">
+
+     <text><![CDATA[Alguns fungos podem ser utilizados na produção de alimentos.]]></text>
+     <correct><![CDATA[Há fungos que podem ser usados no fabrico de alimentos como o iogurte, o queijo e a cerveja.]]> 
+     </correct>
+     <incorrect><![CDATA[Há fungos que podem ser usados no fabrico de alimentos como o iogurte, o queijo e a cerveja.]]></incorrect>
+
+   </question>
+
+
+   <question id="1" awnser="true">
+
+     <text><![CDATA[A Micologia é a ciência que estuda os fungos.]]></text>
+     <correct><![CDATA[A Micologia é, de facto, a ciência que estuda os fungos, microrganismos que provocam, por exemplo, as comuns micoses.]]></correct>
+     <incorrect><![CDATA[A Micologia é a ciência que estuda os fungos, microrganismos que provocam, por exemplo, as comuns micoses.]]></incorrect>
+
+   </question>
+
+
+   <question id="2" awnser="false">
+
+     <text><![CDATA[Acordar repentinamente um sonâmbulo pode provocar-lhe a morte.]]></text>
+     <correct><![CDATA[Um sonâmbulo, de facto, não morrerá se o acordarmos, embora não devamos fazê-lo, pois isso pode assustá-lo.]]></correct>
+     <incorrect><![CDATA[Um sonâmbulo não morrerá se o acordarmos, embora não devamos fazê-lo, pois isso pode assustá-lo.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="true">
+
+     <text><![CDATA[O Aloe Vera é uma planta suculenta, ou seja, acumula água.]]></text>
+     <correct><![CDATA[A planta Aloe Vera é considerada suculenta, ou seja, que acumula água.]]></correct>
+     <incorrect><![CDATA[A planta Aloe Vera é considerada suculenta, ou seja, que acumula água.]]></incorrect>
+
+   </question>
+
+   <question id="4" awnser="false">
+
+     <text><![CDATA[A manteiga alivia a dor das queimaduras.]]></text>
+     <correct><![CDATA[Em caso de queimadura, a manteiga não é, de facto, benéfica, pois evita a saída de calor e prolonga a dor.]]></correct>
+     <incorrect><![CDATA[Em caso de queimadura, a manteiga não é benéfica, pois evita a saída de calor e prolonga a dor.]]></incorrect>
+
+   </question>
+
+<question id="5" awnser="true">
+
+     <text><![CDATA[O cloreto de sódio representa a maioria dos sais minerais dissolvidos na água do mar.]]></text>
+     <correct><![CDATA[De facto, o cloreto de sódio (vulgo sal) representa a maioria dos sais minerais dissolvidos na água do mar!]]></correct>
+     <incorrect><![CDATA[De facto, o cloreto de sódio (vulgo sal) representa a maioria dos sais minerais dissolvidos na água do mar!]]></incorrect>
+
+   </question>
+
+   <question id="6" awnser="false">
+
+     <text><![CDATA[“Supernova” é o nome de uma galáxia.]]></text>
+     <correct><![CDATA[Uma supernova é uma explosão de uma estrela massiva. Trata-se de um fenómeno raro.]]></correct>
+     <incorrect><![CDATA[Uma supernova é uma explosão de uma estrela massiva. Trata-se de um fenómeno raro.]]></incorrect>
+
+   </question>
+
+   <question id="7" awnser="false">
+
+     <text><![CDATA[Um catalisador é utilizado para tornar uma reação química mais lenta.]]></text>
+     <correct><![CDATA[O catalisador é uma substância que se acrescenta à reação química precisamente para aumentar a velocidade a que esta decorre.]]></correct>
+     <incorrect><![CDATA[O catalisador é uma substância que se acrescenta à reação química precisamente para aumentar a velocidade a que esta decorre.]]></incorrect>
+
+   </question>
+
+
+   <question id="8" awnser="false">
+
+     <text><![CDATA[No vácuo um elefante cai mais depressa do que uma mosca.]]></text>
+     <correct><![CDATA[No vácuo, não entram em consideração o arrasto do ar ou a aerodinâmica, nem a massa, caindo os dois em simultâneo.]]></correct>
+     <incorrect><![CDATA[No vácuo, não entram em consideração o arrasto do ar ou a aerodinâmica, nem a massa, caindo os dois em simultâneo.]]></incorrect>
+
+   </question>
+
+   <question id="9" awnser="false">
+
+     <text><![CDATA[A castanha é um fruto seco.]]></text>
+     <correct><![CDATA[De facto, a castanha não é um fruto seco, mas sim um fruto amiláceo sazonal.]]></correct>
+     <incorrect><![CDATA[A castanha não é um fruto seco, mas sim um fruto amiláceo sazonal.]]></incorrect>
+
+   </question>
+
+   <question id="10" awnser="true">
+
+     <text><![CDATA[Em matemática, um grafo é uma representação gráfica de algum problema ou processo.]]></text>
+     <correct><![CDATA[Os grafos são representações gráficas de um problema ou processo.]]></correct>
+     <incorrect><![CDATA[Os grafos são representações gráficas de um problema ou processo.]]></incorrect>
+
+   </question>
+
+   <question id="11" awnser="false">
+
+     <text><![CDATA[A mumificação era um processo utilizado no Antigo Egito que demorava dois dias a ser executado.]]></text>
+     <correct><![CDATA[O processo de mumificação, que consistia na preservação do corpo após a morte, demorava 70 dias a ser executado.]]></correct>
+     <incorrect><![CDATA[O processo de mumificação, que consistia na preservação do corpo após a morte, demorava 70 dias a ser executado.]]></incorrect>
+
+   </question>
+
+   <question id="12" awnser="false">
+
+     <text><![CDATA[Se ficarmos atentos a um objeto, pestanejamos mais vezes por minuto.]]></text>
+     <correct><![CDATA[Se estivermos mais atentos a um objeto ou situação, ocorre uma diminuição do pestanejo.]]></correct>
+     <incorrect><![CDATA[Se estivermos mais atentos a um objeto ou situação, ocorre, pelo contrário, uma diminuição do pestanejo.]]></incorrect>
+
+   </question>
+
+   <question id="13" awnser="false">
+
+     <text><![CDATA[As escamas dos peixes servem apenas como proteção.]]></text>
+     <correct><![CDATA[As escamas dos peixes, para além de proteção, servem também para armazenar cálcio e para os peixes se moverem mais rapidamente.]]></correct>
+     <incorrect><![CDATA[As escamas dos peixes, para além de proteção, servem também para armazenar cálcio e para os peixes se moverem mais rapidamente.]]></incorrect>
+
+   </question>
+
+   <question id="14" awnser="false">
+
+     <text><![CDATA[As pessoas com dislexia têm, em geral, mais facilidade em aprender uma língua estrangeira.]]></text>
+     <correct><![CDATA[As pessoas que sofrem de dislexia têm, normalmente, uma dificuldade maior na aprendizagem de uma língua estrangeira.]]> 
+     </correct>
+     <incorrect><![CDATA[As pessoas que sofrem de dislexia têm, normalmente, uma dificuldade maior na aprendizagem de uma língua estrangeira.]]></incorrect>
+
+   </question>
+
+   <question id="15" awnser="true">
+
+     <text><![CDATA[Asteroides são fragmentos de rocha que resultaram da formação do sistema solar há milhares de milhões de anos.]]></text>
+     <correct><![CDATA[Os asteroides são, de facto, fragmentos de rocha que resultaram da formação do sistema solar.]]></correct>
+     <incorrect><![CDATA[Os asteroides são, de facto, fragmentos de rocha que resultaram da formação do sistema solar.]]></incorrect>
+
+   </question>
+
+   <question id="16" awnser="true">
+
+     <text><![CDATA[Os nossos ossos são renovados ao longo da vida.]]></text>
+     <correct><![CDATA[Os nossos ossos são renovados ao longo da vida. Existem células responsáveis pela reabsorção de osso e células responsáveis pela formação de osso.]]></correct>
+     <incorrect><![CDATA[Os nossos ossos são renovados ao longo da vida. Existem células responsáveis pela reabsorção de osso e células responsáveis pela formação de osso.]]></incorrect>
+
+   </question>
+
+<question id="17" awnser="true">
+
+     <text><![CDATA[A cianotipia é um processo de impressão fotográfica que produz imagens em tons de azul.]]></text>
+     <correct><![CDATA[O termo vem do grego “cyanos”, que significa “azul escuro”.]]></correct>
+     <incorrect><![CDATA[O termo vem do grego “cyanos”, que significa “azul escuro”.]]></incorrect>
+
+   </question>
+
+   <question id="18" awnser="true">
+
+     <text><![CDATA[A capacidade de se regenerar e germinar num curto espaço de tempo é uma das vantagens do eucalipto.]]></text>
+     <correct><![CDATA[O eucalipto tem a capacidade de se regenerar e germinar em pouco tempo, impedindo que outras espécies invadam o seu território.]]></correct>
+     <incorrect><![CDATA[O eucalipto tem a capacidade de se regenerar e germinar em pouco tempo, impedindo que outras espécies invadam o seu território.]]></incorrect>
+
+   </question>
+
+   </spot>
+   
+     <spot id="2"  waypoint="3" icon="2" type="challenge"/>
+   
+   </level>
+   
+   <level id="3">
+
+
+<bossmessage>
+
+<positive id="0"><![CDATA[Esta era fácil! Quero ver se sabes responder às próximas perguntas!]]></positive>
+<positive id="1"><![CDATA[Desta vez acertaste, mas para a próxima vai ser bem mais difícil!]]></positive>
+<positive id="2"><![CDATA[Acertaste nesta, mas vou dificultar-te a vida!]]></positive>
+
+<negative id="0"><![CDATA[Pensas que sabes tudo mas não sabes! Eu sou o mais inteligente!!!]]></negative>
+<negative id="1"><![CDATA[Cada vez é mais difícil. Será que sabes tanto quanto pensas?]]></negative>
+<negative id="2"><![CDATA[Tens a mania que és sabichão, mas afinal não és tanto assim…]]></negative>
+
+
+</bossmessage>
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.66" y="0.83"/>
+<waypoint id="1" x="0.35" y="0.82"/>
+    <waypoint id="2" x="0.28" y="0.70"/>  
+<waypoint id="3" x="0.25" y="0.45"/>   
+<waypoint id="4" x="0.54" y="0.36"/>
+   <waypoint id="5" x="0.67" y="0.34"/>  
+<waypoint id="6" x="0.72" y="0.16"/>  
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1">
+
+    <question id="0" awnser="false">
+
+     <text><![CDATA[A esclerose múltipla é uma doença que afeta sobretudo pessoas com mais de 65 anos de idade.]]></text>
+     <correct><![CDATA[A esclerose múltipla atinge principalmente jovens adultos entre os 20 e os 40 anos.]]></correct>
+     <incorrect><![CDATA[A esclerose múltipla atinge principalmente jovens adultos entre os 20 e os 40 anos.]]></incorrect>
+
+   </question>
+
+   <question id="1" awnser="true">
+
+     <text><![CDATA[A fertilização <i>in vitro</i> é uma técnica de procriação medicamente assistida.]]></text>
+     <correct><![CDATA[A fertilização <i>in vitro</i> é, de facto, uma técnica de procriação medicamente assistida.]]></correct>
+     <incorrect><![CDATA[A fertilização <i>in vitro</i> é, de facto, uma técnica de procriação medicamente assistida.]]></incorrect>
+
+   </question>
+
+   <question id="2" awnser="true">
+
+     <text><![CDATA[Os piolhos conseguem estar até 48 horas sem se alimentar.]]></text>
+     <correct><![CDATA[Os piolhos conseguem sobreviver até 48 horas, por exemplo, num chapéu, sem acesso a alimentação.]]></correct>
+     <incorrect><![CDATA[Os piolhos conseguem sobreviver até 48 horas, por exemplo, num chapéu, sem acesso a alimentação.]]></incorrect>
+
+   </question>
+
+   <question id="3" awnser="false">
+
+     <text><![CDATA[Todos os organismos precisam de oxigénio para viver.]]></text>
+     <correct><![CDATA[Existem organismos, chamados “anaeróbios”, que não precisam de oxigénio para viver.]]></correct>
+     <incorrect><![CDATA[Existem organismos, chamados “anaeróbios”, que não precisam de oxigénio para viver.]]></incorrect>
+
+   </question>
+
+   <question id="4" awnser="true">
+
+     <text><![CDATA[A constelação do Cão Maior pertence à Via Láctea.]]></text>
+     <correct><![CDATA[A constelação do Cão Maior pertence à galáxia da Via Láctea, assim como todas as que constelações que vemos no céu noturno.]]></correct>
+     <incorrect><![CDATA[A constelação do Cão Maior pertence à galáxia da Via Láctea, assim como todas as que constelações que vemos no céu noturno.]]></incorrect>
+
+   </question>
+
+
+<question id="5" awnser="false">
+
+     <text><![CDATA[As zonas de maior produção de castanheiros em Portugal são o centro e o sul do país.]]> </text>
+     <correct><![CDATA[As zonas de maior produção de castanheiros em Portugal são o interior centro e norte do país.]]></correct>
+     <incorrect><![CDATA[As zonas de maior produção de castanheiros em Portugal são o interior centro e norte do país.]]></incorrect>
+
+   </question>
+
+
+<question id="6" awnser="false">
+
+     <text><![CDATA[Podemos observar o corvo apenas no norte de Portugal.]]></text>
+     <correct><![CDATA[O corvo pode ser visto de norte a sul do país, sobretudo em zonas menos povoadas do interior.]]></correct>
+     <incorrect><![CDATA[O corvo pode ser visto de norte a sul do país, sobretudo em zonas menos povoadas do interior.]]></incorrect>
+
+   </question>
+
+
+<question id="7" awnser="true">
+
+     <text><![CDATA[Os gémeos verdadeiros são considerados “gémeos monozigóticos”.]]></text>
+     <correct><![CDATA[Os gémeos verdadeiros são considerados “gémeos monozigóticos”.]]> 
+     </correct>
+     <incorrect><![CDATA[Os gémeos verdadeiros são considerados “gémeos monozigóticos”.]]></incorrect>
+
+   </question>
+
+
+<question id="8" awnser="true">
+
+     <text><![CDATA[A amígdala é uma estrutura cerebral envolvida no mecanismo do medo.]]></text>
+     <correct><![CDATA[A amígdala é uma pequena estrutura fundamental nos circuitos emocionais, estando envolvida no mecanismo do medo.]]></correct>
+     <incorrect><![CDATA[A amígdala é uma pequena estrutura fundamental nos circuitos emocionais, estando envolvida no mecanismo do medo.]]></incorrect>
+
+   </question>
+
+<question id="9" awnser="false">
+
+     <text><![CDATA[A doença de Huntington é uma doença infetocontagiosa.]]></text>
+     <correct><![CDATA[A doença de Huntington é uma doença neurodegenerativa.]]></correct>
+     <incorrect><![CDATA[A doença de Huntington é uma doença neurodegenerativa.]]></incorrect>
+
+   </question>
+
+<question id="10" awnser="true">
+
+     <text><![CDATA[O veneno das abelhas chama-se apitoxina.]]></text>
+     <correct><![CDATA[O veneno das abelhas é um veneno de natureza ácida chamado apitoxina.]]></correct>
+     <incorrect><![CDATA[O veneno das abelhas é um veneno de natureza ácida chamado apitoxina.]]></incorrect>
+
+   </question>
+
+  <question id="11" awnser="false">
+
+     <text><![CDATA[A segunda lei de Newton diz-nos que a força é igual à massa a dividir pela aceleração.]]></text>
+     <correct><![CDATA[De acordo com a segunda lei de Newton a força é igual à massa vezes a aceleração.]]></correct>
+     <incorrect><![CDATA[De acordo com a segunda lei de Newton a força é igual à massa vezes a aceleração.]]></incorrect>
+
+   </question>
+
+
+<question id="12" awnser="false">
+
+     <text><![CDATA[Sequência de Fibonacci é uma sequência finita de números.]]></text>
+     <correct><![CDATA[A sequência de Fibonacci é uma sequência infinita de números.]]></correct>
+     <incorrect><![CDATA[A sequência de Fibonacci é uma sequência infinita de números.]]></incorrect>
+
+   </question>
+
+
+<question id="13" awnser="true">
+
+     <text><![CDATA[A gravação binaural é um método que usa dois microfones para criar uma sensação de som 3D para quem ouve.]]></text>
+     <correct><![CDATA[A gravação binaural é um método que usa dois microfones para criar uma sensação de som 3D para quem ouve.]]> 
+     </correct>
+     <incorrect><![CDATA[A gravação binaural é, de facto, um método que usa dois microfones para criar uma sensação de som 3D para quem ouve.]]></incorrect>
+
+   </question>
+
+
+<question id="14" awnser="true">
+
+     <text><![CDATA[Um fractal é uma figura geométrica que pode ser dividida em partes que reproduzem o todo a uma escala menor.]]></text>
+     <correct><![CDATA[Um fractal é uma figura que pode ser dividida em partes que reproduzem o todo a uma escala menor.]]></correct>
+     <incorrect><![CDATA[Um fractal é uma figura que pode ser dividida em partes que reproduzem o todo a uma escala menor.]]></incorrect>
+
+   </question>
+
+<question id="15" awnser="true">
+
+     <text><![CDATA[A toupeira ibérica (<i>Talpa occidentalis</i>) é uma espécie considerada não ameaçada, segundo o Livro Vermelho dos Vertebrados Portugueses.]]></text>
+     <correct><![CDATA[A toupeira ibérica é uma espécie que não se encontra ameaçada.]]></correct>
+     <incorrect><![CDATA[A toupeira ibérica é uma espécie que não se encontra ameaçada.]]></incorrect>
+
+   </question>
+
+
+<question id="16" awnser="false">
+
+     <text><![CDATA[A dinamometria é um método biomecânico de avaliação do movimento.]]></text>
+     <correct><![CDATA[A dinamometria é um método biomecânico de avaliação de forças. O método utilizado para avaliar o movimento chama-se “cinemetria”.]]></correct>
+     <incorrect><![CDATA[A dinamometria é um método biomecânico de avaliação de forças. O método utilizado para avaliar o movimento chama-se “cinemetria”.]]></incorrect>
+
+   </question>
+ 
+ <question id="17" awnser="true">
+
+     <text><![CDATA[Existe cloro na água do mar.]]></text>
+     <correct><![CDATA[Os elementos mais abundantes no mar são o cloro, o sódio, o potássio e o cálcio.]]></correct>
+     <incorrect><![CDATA[Os elementos mais abundantes no mar são o cloro, o sódio, o potássio e o cálcio.]]></incorrect>
+
+   </question>
+
+ </spot>
+
+  <spot id="1"  waypoint="5" icon="1">
+
+    <question id="0" awnser="false">
+
+     <text><![CDATA[O abelharuco é um inseto.]]></text>
+     <correct><![CDATA[O aberalhuco é uma colorida ave, muito comum no continente europeu.]]></correct>
+     <incorrect><![CDATA[O aberalhuco é uma colorida ave, muito comum no continente europeu.]]></incorrect>
+
+   </question>
+
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[A cortiça é um material usado na indústria aeronáutica e aeroespacial.]]></text>
+     <correct><![CDATA[A cortiça é usada na indústria aeronáutica e aeroespacial. É usada, por exemplo, pela NASA, devido à sua capacidade térmica.]]></correct>
+     <incorrect><![CDATA[A cortiça é usada na indústria aeronáutica e aeroespacial. É usada, por exemplo, pela NASA, devido à sua capacidade térmica.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[O café contém polifenóis.]]></text>
+     <correct><![CDATA[O café contém polifenóis, substâncias que contribuem para a saúde cardiovascular.]]></correct>
+     <incorrect><![CDATA[O café contém polifenóis, substâncias que contribuem para a saúde cardiovascular.]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="true">
+
+     <text><![CDATA[A acidificação é usada como uma técnica de conservação de alimentos.]]></text>
+     <correct><![CDATA[A redução do PH de um alimento diminui a capacidade de desenvolvimento de microrganismos potencialmente nocivos para a saúde humana.]]></correct>
+     <incorrect><![CDATA[A redução do PH de um alimento diminui a capacidade de desenvolvimento de microrganismos potencialmente nocivos para a saúde humana.]]></incorrect>
+
+   </question>
+
+
+<question id="4" awnser="false">
+
+     <text><![CDATA[Habitualmente colocamos algo que estejamos a ler a uma distância de 70 centímetros dos nossos olhos.]]></text>
+     <correct><![CDATA[Normalmente, a distância de leitura é de 33 centímetros.]]></correct>
+     <incorrect><![CDATA[Normalmente, a distância de leitura é de 33 centímetros.]]></incorrect>
+
+   </question>
+
+   <question id="5" awnser="false">
+
+     <text><![CDATA[As ervas aromáticas podem ser usadas livremente na confeção de alimentos por não terem contraindicações.]]></text>
+     <correct><![CDATA[Algumas ervas aromáticas têm contraindicações. O alecrim, por exemplo, não deve ser usado em caso de diarreia.]]></correct>
+     <incorrect><![CDATA[Algumas ervas aromáticas têm contraindicações. O alecrim, por exemplo, não deve ser usado em caso de diarreia.]]></incorrect>
+
+   </question>
+
+
+<question id="6" awnser="true">
+
+     <text><![CDATA[As libelinhas encontram-se principalmente em locais com altos níveis de humidade.]]></text>
+     <correct><![CDATA[As libelinhas encontram-se principalmente em locais com altos níveis de humidade, como charcos ou rios.]]></correct>
+     <incorrect><![CDATA[As libelinhas encontram-se principalmente em locais com altos níveis de humidade, como charcos ou rios.]]></incorrect>
+
+   </question>
+
+<question id="7" awnser="true">
+
+     <text><![CDATA[Conseguimos flutuar na água porque a densidade relativa média do corpo humano é inferior à densidade relativa da água.]]></text>
+     <correct><![CDATA[Conseguimos flutuar na água pois a densidade relativa média do corpo humano é inferior à densidade relativa da água.]]></correct>
+     <incorrect><![CDATA[Conseguimos flutuar na água pois a densidade relativa média do corpo humano é inferior à densidade relativa da água.]]></incorrect>
+
+   </question>
+
+<question id="8" awnser="true">
+
+     <text><![CDATA[“Olho preguiçoso” é o mesmo que “ambliopia”.]]></text>
+     <correct><![CDATA[A ambliopia, conhecida como “olho preguiçoso”, corresponde a uma diminuição da acuidade visual devida à falta de estimulação do córtex visual.]]></correct>
+     <incorrect><![CDATA[A ambliopia, conhecida como “olho preguiçoso”, corresponde a uma diminuição da acuidade visual devida à falta de estimulação do córtex visual.]]></incorrect>
+
+   </question>
+
+
+<question id="9" awnser="false">
+
+     <text><![CDATA[O <i>Helicobacter pylori</i> é um vírus.]]></text>
+     <correct><![CDATA[O <i>Helicobacter pylori</i> é uma bactéria e não um vírus.]]></correct>
+     <incorrect><![CDATA[O <i>Helicobacter pylori</i> é uma bactéria e não um vírus.]]></incorrect>
+
+   </question>
+
+
+<question id="10" awnser="true">
+
+     <text><![CDATA[O níquel, um metal presente em muitas tintas de tatuagem, pode provocar alergia de contacto.]]></text>
+     <correct><![CDATA[O níquel usado na composição de muitas tintas de tatuagem pode provocar alergia.]]></correct>
+     <incorrect><![CDATA[O níquel usado na composição de muitas tintas de tatuagem pode provocar alergia.]]></incorrect>
+
+   </question>
+
+
+<question id="11" awnser="false">
+
+     <text><![CDATA[A aranha é um inseto.]]></text>
+     <correct><![CDATA[As aranhas são aracnídeos. Uma diferença entre aracnídeos e insetos é o número de patas: os insetos só têm 3 pares e as aranhas 4.]]></correct>
+     <incorrect><![CDATA[As aranhas são aracnídeos. Uma diferença entre aracnídeos e insetos é o número de patas: os insetos só têm 3 pares e as aranhas 4.]]></incorrect>
+
+   </question>
+
+<question id="12" awnser="true">
+
+     <text><![CDATA[A falta de sono pode contribuir para o desenvolvimento de doenças como a diabetes ou a obesidade.]]></text>
+     <correct><![CDATA[Abdicar de dormir nunca é uma solução saudável, podendo mesmo contribuir para o aparecimento de certas doenças.]]></correct>
+     <incorrect><![CDATA[Abdicar de dormir nunca é uma solução saudável, podendo mesmo contribuir para o aparecimento de certas doenças.]]></incorrect>
+
+   </question>
+
+<question id="13" awnser="false">
+
+     <text><![CDATA[A insulina é segregada pelo fígado.]]></text>
+     <correct><![CDATA[A insulina não é, de facto, segregada pelo fígado, mas sim pelo pâncreas.]]></correct>
+     <incorrect><![CDATA[A insulina não é, de facto, segregada pelo fígado, mas sim pelo pâncreas.]]></incorrect>
+
+   </question>
+
+<question id="14" awnser="false">
+
+     <text><![CDATA[O VIH infeta, vive e reproduz-se predominantemente dentro dos glóbulos vermelhos.]]></text>
+     <correct><![CDATA[O VIH infeta, vive e reproduz-se predominantemente dentro de células de defesa, os linfócitos T CD4, que são glóbulos brancos.]]></correct>
+     <incorrect><![CDATA[O VIH infeta, vive e reproduz-se predominantemente dentro de células de defesa, os linfócitos T CD4, que são glóbulos brancos.]]></incorrect>
+
+   </question>
+
+<question id="15" awnser="true">
+
+     <text><![CDATA[Beber álcool em excesso é um fator de risco para ter osteoporose.]]></text>
+     <correct><![CDATA[O alcoolismo leva a desregulações a nível da absorção de determinados minerais e vitaminas fundamentais para manter a saúde óssea.]]></correct>
+     <incorrect><![CDATA[O alcoolismo leva a desregulações a nível da absorção de determinados minerais e vitaminas fundamentais para manter a saúde óssea.]]></incorrect>
+
+   </question>
+
+<question id="16" awnser="true">
+
+     <text><![CDATA[Outro nome para a lagarta do pinheiro é a “processionária do pinheiro”.]]></text>
+     <correct><![CDATA[Chama-se “processionária do pinheiro” porque podemos assistir a “procissões” destes insetos junto do pinheiro.]]></correct>
+     <incorrect><![CDATA[Chama-se “processionária do pinheiro” porque podemos assistir a “procissões” destes insetos junto do pinheiro.]]></incorrect>
+
+   </question>
+
+
+<question id="17" awnser="true">
+
+     <text><![CDATA[As nuvens produzem chuva por efeito da gravidade.]]></text>
+     <correct><![CDATA[As nuvens produzem chuva devido à gravidade.]]></correct>
+     <incorrect><![CDATA[As nuvens produzem chuva devido à gravidade.]]></incorrect>
+
+   </question>
+
+ </spot>
+ 
+      <spot id="2"  waypoint="6" icon="2" type="challenge"/>
+ 
+
+</level>
+   
+   
+    
+ <level id="4">
+ 
+<bossmessage>
+ <positive id="0"><![CDATA[Já chegaste até aqui… mas não sei se passas ao desafio final!]]></positive>
+<positive id="1"><![CDATA[Grrr… Podes estar perto, mas ainda tens muito que responder!]]></positive>
+<positive id="2"><![CDATA[Espera aí que já vais ver… nem penses que me consegues derrotar!]]></positive>
+
+<negative id="0"><![CDATA[Afinal, o prémio era só “lábia”! Deves ter feito “copy-paste”!]]></negative>
+<negative id="1"><![CDATA[Por este andar, duvido que consigas chegar até mim!]]></negative>
+<negative id="2"><![CDATA[As perguntas são difíceis e não é qualquer um que consegue acertar! ]]></negative>
+<negative id="3"><![CDATA[Não vais conseguir vencer-me! ]]></negative>
+
+</bossmessage>
+
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.78" y="0.73"/>
+    <waypoint id="1" x="0.62" y="0.69"/>
+	<waypoint id="2" x="0.59" y="0.54"/>
+	<waypoint id="3" x="0.73" y="0.22"/>   
+	<waypoint id="4" x="0.60" y="0.37"/> 
+  	<waypoint id="5" x="0.42" y="0.52"/>   
+    <waypoint id="6" x="0.30" y="0.74"/> 
+
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="3" icon="1">
+
+    <question id="0" awnser="true">
+
+     <text><![CDATA[<i>Coffea arabica</i> L. é o nome da principal espécie da planta do café.]]></text>
+     <correct><![CDATA[<i>Coffea arabica</i> L. é a principal espécie da planta do café e tem origem na Etiópia e no sul do Sudão.]]></correct>
+     <incorrect><![CDATA[<i>Coffea arabica</i> L. é a principal espécie da planta do café e tem origem na Etiópia e no sul do Sudão.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[A presbiopia traduz-se por dificuldades em ver bem ao perto.]]></text>
+     <correct><![CDATA[A presbiopia, ou vista cansada, traduz-se, de facto, por dificuldades em ver bem ao perto.]]></correct>
+     <incorrect><![CDATA[A presbiopia, ou vista cansada, traduz-se, de facto, por dificuldades em ver bem ao perto.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="false">
+
+     <text><![CDATA[O primeiro automóvel do mundo foi criado em 1769, pelo engenheiro Henry Ford.]]></text>
+     <correct><![CDATA[O primeiro automóvel do mundo foi criado em 1769 pelo engenheiro Nicolas Cugnot.]]></correct>
+     <incorrect><![CDATA[O primeiro automóvel do mundo foi criado em 1769 pelo engenheiro Nicolas Cugnot.]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="false">
+
+     <text><![CDATA[O Big Bang ocorreu há cerca de 20 mil milhões de anos.]]></text>
+     <correct><![CDATA[O Big Bang ocorreu há cerca de 14 mil milhões de anos.]]></correct>
+     <incorrect><![CDATA[O Big Bang ocorreu há cerca de 14 mil milhões de anos.]]></incorrect>
+
+   </question>
+
+
+<question id="4" awnser="false">
+
+     <text><![CDATA[Blaise Pascal descobriu o triângulo de Pascal.]]></text>
+     <correct><![CDATA[Este triângulo foi descoberto por um matemático chinês, mas Pascal dedicou grande parte da sua vida a estudá-lo.]]></correct>
+     <incorrect><![CDATA[Este triângulo foi descoberto por um matemático chinês, mas Pascal dedicou grande parte da sua vida a estudá-lo.]]></incorrect>
+
+   </question>
+
+<question id="5" awnser="true">
+
+     <text><![CDATA[Ferramentas da Matemática Discreta permitem perceber qual a probabilidade de um apostador ganhar o euromilhões.]]></text>
+     <correct><![CDATA[Ferramentas da Matemática Discreta permitem-nos fazer um cálculo de probabilidades.]]></correct>
+     <incorrect><![CDATA[Ferramentas da Matemática Discreta permitem-nos fazer um cálculo de probabilidades.]]></incorrect>
+
+   </question>
+
+
+<question id="6" awnser="false">
+
+     <text><![CDATA[O lobo ibérico é maior, em termos de tamanho, do que as subespécies do lobo que habitam no Norte da Europa.]]></text>
+     <correct><![CDATA[O lobo ibérico é mais pequeno do que as subespécies que habitam no Norte da Europa.]]></correct>
+     <incorrect><![CDATA[O lobo ibérico é mais pequeno do que as subespécies que habitam no Norte da Europa.]]></incorrect>
+
+   </question>
+
+  <question id="7" awnser="true">
+
+     <text><![CDATA[Um sensor inercial pode também ser chamado de sensor de movimento.]]></text>
+     <correct><![CDATA[Um sensor inercial pode também ser chamado de sensor de movimento.]]></correct>
+     <incorrect><![CDATA[Um sensor inercial pode também ser chamado de sensor de movimento.]]></incorrect>
+
+   </question>
+
+
+<question id="8" awnser="true">
+
+     <text><![CDATA[O Pico Ruivo é a montanha mais alta do Arquipélago da Madeira.]]></text>
+     <correct><![CDATA[O Pico Ruivo é, de facto, a montanha mais alta do Arquipélago da Madeira.]]></correct>
+     <incorrect><![CDATA[O Pico Ruivo é a montanha mais alta do Arquipélago da Madeira.]]></incorrect>
+
+   </question>
+
+
+<question id="9" awnser="true">
+
+     <text><![CDATA[Os ácaros pertencem à classe dos aracnídeos.]]></text>
+     <correct><![CDATA[Os ácaros pertencem, de facto, à classe dos aracnídeos.]]></correct>
+     <incorrect><![CDATA[Os ácaros pertencem mesmo à classe dos aracnídeos.]]></incorrect>
+
+   </question>
+
+
+<question id="10" awnser="true">
+
+     <text><![CDATA[O daltonismo deriva de uma anomalia genética ligada ao cromossoma x.]]></text>
+     <correct><![CDATA[Com efeito, o daltonismo é uma doença hereditária ligada ao cromossoma x.]]></correct>
+     <incorrect><![CDATA[Com efeito, o daltonismo é uma doença hereditária ligada ao cromossoma x.]]></incorrect>
+
+   </question>
+
+
+<question id="11" awnser="false">
+
+     <text><![CDATA[A maioria dos ácaros alimenta-se de insetos.]]></text>
+     <correct><![CDATA[A maioria dos ácaros alimenta-se de plantas.]]></correct>
+     <incorrect><![CDATA[A maioria dos ácaros alimenta-se de plantas.]]></incorrect>
+
+   </question>
+
+
+<question id="12" awnser="true">
+
+     <text><![CDATA[As trilobites eram artrópodes marinhos.]]></text>
+     <correct><![CDATA[As trilobites eram, de facto, artrópodes marinhos que viveram nos mares do Paleozoico.]]></correct>
+     <incorrect><![CDATA[As trilobites eram, de facto, artrópodes marinhos que viveram nos mares do Paleozoico.]]></incorrect>
+
+   </question>
+
+<question id="13" awnser="false">
+
+     <text><![CDATA[A primeira ressonância magnética de corpo inteiro foi feita em 1957.]]></text>
+     <correct><![CDATA[Só em 1977 foi feita a primeira ressonância magnética de corpo inteiro.]]></correct>
+     <incorrect><![CDATA[Só em 1977 foi feita a primeira ressonância magnética de corpo inteiro.]]></incorrect>
+
+   </question>
+ 
+<question id="14" awnser="false">
+
+     <text><![CDATA[A um planeta localizado fora do nosso sistema solar dá-se o nome de “planeta extragalático”.]]></text>
+     <correct><![CDATA[Os planetas existentes fora do nosso sistema solar são denominados “exoplanetas”.]]></correct>
+     <incorrect><![CDATA[Os planetas existentes fora do nosso sistema solar são denominados “exoplanetas”.]]></incorrect>
+
+   </question>
+
+
+<question id="15" awnser="false">
+
+     <text><![CDATA[Uma chávena de espinafres possui 80% da dose diária recomendada de ferro.]]></text>
+     <correct><![CDATA[Uma chávena de espinafres contém cerca de 15% da quantidade de ferro que devemos ingerir por dia.]]></correct>
+     <incorrect><![CDATA[Uma chávena de espinafres contém apenas cerca de 15% da quantidade de ferro que devemos ingerir por dia.]]></incorrect>
+
+   </question>
+
+
+<question id="16" awnser="true">
+
+     <text><![CDATA[A couve-galega tem mais cálcio do que o leite.]]></text>
+     <correct><![CDATA[A couve-galega tem mais cálcio do que o leite, mais vitamina C do que a laranja e metade da quantidade de ferro de um bife.]]></correct>
+     <incorrect><![CDATA[A couve-galega tem mais cálcio do que o leite, mais vitamina C do que a laranja e metade da quantidade de ferro de um bife.]]></incorrect>
+
+   </question>
+
+
+<question id="17" awnser="false">
+
+     <text><![CDATA[O nosso Sol tem cerca de 3,6 milhões de anos.]]></text>
+     <correct><![CDATA[O nosso sol tem cerca de 4,6 mil milhões de anos e está apenas a metade da sua vida!]]></correct>
+     <incorrect><![CDATA[Na verdade, o nosso sol tem cerca de 4,6 mil milhões de anos e está apenas a metade da sua vida!]]></incorrect>
+
+   </question>
+
+ </spot>
+
+<spot id="1"  waypoint="5" icon="1">
+
+<question id="0" awnser="true">
+
+     <text><![CDATA[Os mercadores venezianos trouxeram o café para a Europa pela primeira vez no ano de 1615.]]></text>
+     <correct><![CDATA[Os mercadores venezianos trouxeram o café para a Europa pela primeira vez no ano de 1615.]]></correct>
+     <incorrect><![CDATA[Os mercadores venezianos trouxeram o café para a Europa pela primeira vez no ano de 1615.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="false">
+
+     <text><![CDATA[A luz do Sol demora 8 segundos a chegar à Terra.]]></text>
+     <correct><![CDATA[A luz do Sol demora cerca de 8 minutos a chegar à Terra.]]></correct>
+     <incorrect><![CDATA[A luz do Sol demora cerca de 8 minutos a chegar à Terra.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[O jacinto-de-água é uma planta invasora.]]></text>
+     <correct><![CDATA[O jacinto-de-água é uma planta que invade praticamente todo o espelho de água e que altera o ecossistema onde se encontra.]]></correct>
+     <incorrect><![CDATA[O jacinto-de-água é uma planta que invade praticamente todo o espelho de água e que altera o ecossistema onde se encontra.]]></incorrect>
+
+   </question>
+
+  <question id="3" awnser="false">
+
+     <text><![CDATA[A aterosclerose é uma doença dos ossos e articulações.]]></text>
+     <correct><![CDATA[A aterosclerose é uma doença que atinge os vasos sanguíneos.]]></correct>
+     <incorrect><![CDATA[A aterosclerose é uma doença que atinge os vasos sanguíneos.]]></incorrect>
+
+   </question>
+   
+   <question id="4" awnser="false">
+
+     <text><![CDATA[O consumo de determinadas substâncias como corantes e conservantes é a principal causa do défice de atenção.]]></text>
+     <correct><![CDATA[De facto, a relação entre o défice de atenção e o consumo de alimentos ou de corantes e conservantes não está inteiramente demonstrada.]]></correct>
+     <incorrect><![CDATA[A relação entre o défice de atenção e o consumo de alimentos ou de corantes e conservantes não está inteiramente demonstrada.]]></incorrect>
+
+   </question>
+
+   <question id="5" awnser="false">
+
+     <text><![CDATA[A capacidade craniana média de um ser humano é 900 cm3.]]></text>
+     <correct><![CDATA[A capacidade craniana média de um ser humano é muito superior: 1400 cm3.]]></correct>
+     <incorrect><![CDATA[A capacidade craniana média de um ser humano é muito superior: 1400 cm3.]]></incorrect>
+
+   </question>
+
+   <question id="6" awnser="true">
+
+     <text><![CDATA[Ingerir alimentos ricos em açúcares contribui para a libertação de serotonina.]]></text>
+     <correct><![CDATA[Comer alimentos com açúcares leva a uma maior produção de serotonina, responsável por sensações de prazer e bem-estar.]]></correct>
+     <incorrect><![CDATA[A ingestão de alimentos com açúcares leva mesmo a uma maior produção de serotonina, responsável por sensações de prazer e bem-estar.]]></incorrect>
+
+   </question>
+
+   <question id="7" awnser="true">
+
+     <text><![CDATA[Há algumas espécies de peixes que conseguem emitir sons e comunicar.]]></text>
+     <correct><![CDATA[De facto, alguns peixes comunicam através da emissão de sons a partir do ar presente na bexiga-natatória e também dos seus dentes.]]></correct>
+     <incorrect><![CDATA[Alguns peixes comunicam através da emissão de sons a partir do ar presente na bexiga-natatória e também dos seus dentes.]]></incorrect>
+
+   </question>
+
+   <question id="8" awnser="true">
+
+     <text><![CDATA[Os morcegos podem durar até 30 anos.]]></text>
+     <correct><![CDATA[Estes animais só saem à noite e dificilmente são predados, podendo por esse motivo durar até 30 anos.]]></correct>
+     <incorrect><![CDATA[Estes animais só saem à noite e dificilmente são predados, podendo por esse motivo durar até 30 anos.]]></incorrect>
+
+   </question>
+
+   <question id="9" awnser="false">
+
+     <text><![CDATA[Raramente nos lembramos do que sonhamos durante o sono REM.]]></text>
+     <correct><![CDATA[É mais provável que recordemos os sonhos da fase do sono REM (Rapid Eye Movement).]]></correct>
+     <incorrect><![CDATA[É mais provável que recordemos os sonhos da fase do sono REM (Rapid Eye Movement).]]></incorrect>
+
+   </question> 
+
+<question id="10" awnser="false">
+
+     <text><![CDATA[Um placebo é uma substância com propriedades curativas ou preventivas das doenças e dos seus sintomas.]]></text>
+     <correct><![CDATA[O placebo parece um medicamento, mas não tem uma substância ativa à qual possamos atribuir uma ação farmacológica e terapêutica.]]></correct>
+     <incorrect><![CDATA[O placebo parece um medicamento, mas não tem uma substância ativa à qual possamos atribuir uma ação farmacológica e terapêutica.]]></incorrect>
+
+   </question>
+
+   <question id="11" awnser="false">
+
+     <text><![CDATA[O diagnóstico pré-implantação é um diagnóstico pré-natal feito após a transferência dos embriões para o útero.]]></text>
+     <correct><![CDATA[O diagnóstico pré-implantação é realizado antes da transferência dos embriões para o útero.]]></correct>
+     <incorrect><![CDATA[O diagnóstico pré-implantação é realizado antes da transferência dos embriões para o útero.]]></incorrect>
+
+   </question>
+
+   <question id="12" awnser="true">
+
+     <text><![CDATA[A infeção por <i>H. pylori</i> constitui um fator de risco para doenças como úlceras e cancro gástrico.]]></text>
+     <correct><![CDATA[O <i>Helicobacter pylori</i> pode, em alguns casos, provocar doenças graves, como o cancro do estômago.]]></correct>
+     <incorrect><![CDATA[O <i>Helicobacter pylori</i> pode, em alguns casos, provocar doenças graves, como o cancro do estômago.]]></incorrect>
+
+   </question>
+
+   <question id="13" awnser="false">
+
+     <text><![CDATA[A tinha (<i>Tinea capitis</i>) é uma doença de pele provocada por uma bactéria.]]></text>
+     <correct><![CDATA[A tinha é uma doença do couro cabeludo, sobrancelhas e pestanas causada por fungos do género <i>Trichophyton</i> e <i>Microsporum</i>.]]></correct>
+     <incorrect><![CDATA[A tinha é uma doença do couro cabeludo, sobrancelhas e pestanas causada por fungos do género <i>Trichophyton</i> e <i>Microsporum</i>.]]></incorrect>
+
+   </question>
+
+   <question id="14" awnser="false">
+
+     <text><![CDATA[O eucalipto é uma espécie autóctone da América do Sul.]]></text>
+     <correct><![CDATA[O eucalipto é uma espécie autóctone da Austrália. Já agora, o eucalipto tem características de adaptação ao fogo porque a Austrália é um país propício a incêndios.]]></correct>
+     <incorrect><![CDATA[O eucalipto é uma espécie autóctone da Austrália. Já agora, o eucalipto tem características de adaptação ao fogo porque a Austrália é um país propício a incêndios.]]></incorrect>
+
+   </question>
+
+   <question id="15" awnser="false">
+
+     <text><![CDATA[A falta de higiene está associada ao aparecimento de piolhos.]]></text>
+     <correct><![CDATA[A falta de higiene não está associada a uma maior presença de piolhos. Pelo contrário, estes preferem um couro cabeludo limpo.]]></correct>
+     <incorrect><![CDATA[A falta de higiene não está associada a uma maior presença de piolhos. Pelo contrário, estes preferem um couro cabeludo limpo.]]></incorrect>
+
+   </question>
+
+   <question id="16" awnser="true">
+
+     <text><![CDATA[Podemos observar o grifo nos vales alcantilados do Douro e do Tejo.]]></text>
+     <correct><![CDATA[Podemos observar estas aves nesses locais.]]></correct>
+     <incorrect><![CDATA[Podemos observar estas aves nesses locais.]]></incorrect>
+
+   </question>
+
+   <question id="17" awnser="false">
+
+     <text><![CDATA[A Matemática Discreta diz-nos que é 200 vezes mais provável ganhar o euromilhões do que ser atingido por um raio.]]></text>
+     <correct><![CDATA[É 200 vezes mais provável ser atingido por um raio do que ganhar o euromilhões  — um acontecimento raro.]]></correct>
+     <incorrect><![CDATA[É 200 vezes mais provável ser atingido por um raio do que ganhar o euromilhões  — um acontecimento raro.]]></incorrect>
+
+   </question>
+
+ </spot>
+       <spot id="2"  waypoint="6" icon="2" type="challenge"/>
+ 
+
+</level>
+
+
+
+ <level id="5">
+ 
+<bossmessage >
+<positive id="0"><![CDATA[Grrrr… Estás a acertar, mas ainda não viste nem um pouco da minha loucura!]]></positive>
+<positive id="1"><![CDATA[Sabes responder às perguntas, mas não te vais safar no desafio final!]]></positive>
+<positive id="2"><![CDATA[Estás quase a chegar até mim, mas eu vou fazer-te a vida negra!]]></positive>
+
+
+<negative id="0"><![CDATA[Mais uma resposta errada! Não conseguirás derrotar-me!]]></negative>
+<negative id="1"><![CDATA[Vais continuar aqui fechado até seres inteligente para me vencer!]]></negative>
+<negative id="2"><![CDATA[Ainda vais ter de voltar a jogar para me enfrentares! ]]></negative>
+
+</bossmessage>
+
+
+
+   <!--  para cada level é necessário definir o posicionamento dos waypoints sendo o 0 onde o jogador começa sendo o ultimo onde ele termina  -->
+
+   <waypoints>
+
+
+    <!--  o posicionamento é relativo ou seja está em percentagem , usar o photoshop para obter as percentagens -->  
+    <waypoint id="0" x="0.53" y="0.80"/>
+	<waypoint id="1" x="0.63" y="0.54"/> 
+    <waypoint id="2" x="0.53" y="0.32"/>  
+	<waypoint id="3" x="0.51" y="0.18"/>   
+
+
+
+
+
+  </waypoints>
+
+    <!--  identifica os spots ( onde o jogador clica para iniciar o grupo de perguntas )  e define qual o seu waypoint 
+    o icon define qual a imagem que vai usar.
+  -->
+
+  <spot id="0"  waypoint="1" icon="1">
+
+    <question id="0" awnser="true">
+
+     <text><![CDATA[A deriva genética é um mecanismo que afeta a composição genética de uma população unicamente devido ao acaso.]]></text>
+     <correct><![CDATA[A deriva genética é, de facto, um mecanismo que afeta a composição genética de uma população unicamente devido ao acaso.]]></correct>
+     <incorrect><![CDATA[A deriva genética é um mecanismo que afeta a composição genética de uma população unicamente devido ao acaso.]]></incorrect>
+
+   </question>
+
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[As estrelas mais quentes e de maior massa são azuis.]]></text>
+     <correct><![CDATA[As estrelas mais quentes e de maior massa são azuis, enquanto as mais frias e leves são vermelhas.]]></correct>
+     <incorrect><![CDATA[As estrelas mais quentes e de maior massa são azuis, enquanto as mais frias e leves são vermelhas.]]></incorrect>
+
+   </question>
+
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[O nome científico do piolho da cabeça é <i>Pediculus humanus capitis</i>.]]></text>
+     <correct><![CDATA[O nome científico do piolho da cabeça é <i>Pediculus humanus capitis</i>.]]></correct>
+     <incorrect><![CDATA[O nome científico do piolho da cabeça é <i>Pediculus humanus capitis.</i>]]></incorrect>
+
+   </question>
+
+
+<question id="3" awnser="false">
+
+     <text><![CDATA[O Método de Monte Carlo é um método físico.]]></text>
+     <correct><![CDATA[O Método Monte Carlo é um método estatístico, utilizado como forma de obter aproximações numéricas de funções complexas.]]></correct>
+     <incorrect><![CDATA[O Método Monte Carlo é um método estatístico, utilizado como forma de obter aproximações numéricas de funções complexas.]]></incorrect>
+
+   </question>
+
+
+<question id="4" awnser="true">
+
+     <text><![CDATA[A angiogénese consiste na formação de novos vasos sanguíneos.]]></text>
+     <correct><![CDATA[A angiogénese consiste, de facto, na formação de novos vasos sanguíneos.]]></correct>
+     <incorrect><![CDATA[A angiogénese consiste mesmo na formação de novos vasos sanguíneos.]]></incorrect>
+
+   </question>
+
+
+<question id="5" awnser="true">
+
+     <text><![CDATA[A base do primeiro motor de combustão interna estava na combustão de uma mistura explosiva de ar e hidrogénio.]]></text>
+     <correct><![CDATA[Na base do primeiro motor de combustão interna estava uma mistura de ar e hidrogénio.]]></correct>
+     <incorrect><![CDATA[Na base do primeiro motor de combustão interna estava uma mistura de ar e hidrogénio.]]></incorrect>
+
+   </question>
+
+
+<question id="6" awnser="true">
+
+     <text><![CDATA[O escaravelho da batata hiberna durante o inverno.]]></text>
+     <correct><![CDATA[Quando chega o inverno, o escaravelho entra numa espécie de "hibernação" (diapausa), enterrado a 30/40 cm de profundidade.]]></correct>
+     <incorrect><![CDATA[Quando chega o inverno, o escaravelho entra numa espécie de "hibernação" (diapausa), enterrado a 30/40 cm de profundidade.]]></incorrect>
+
+   </question>
+
+
+<question id="7" awnser="true">
+
+     <text><![CDATA[O teste de Isihara é um teste de deteção do daltonismo.]]></text>
+     <correct><![CDATA[O teste de Isihara é, de facto, um teste de deteção do daltonismo.]]></correct>
+     <incorrect><![CDATA[O teste de Isihara é um teste de deteção do daltonismo.]]></incorrect>
+
+   </question>
+
+
+<question id="8" awnser="false">
+
+     <text><![CDATA[Às diferenças de tamanho, de cor e de comportamento entre os animais damos o nome de “seleção sexual”.]]></text>
+     <correct><![CDATA[Às diferenças de tamanho, de cor e de comportamento entre os animais damos o nome de “dimorfismo sexual”.]]></correct>
+     <incorrect><![CDATA[Às diferenças de tamanho, de cor e de comportamento entre os animais damos o nome de “dimorfismo sexual”.]]></incorrect>
+
+   </question>
+
+
+<question id="9" awnser="false">
+
+     <text><![CDATA[Os grãos da espécie de café <i>Coffea arabica </i> L. têm maior teor de cafeína.]]></text>
+     <correct><![CDATA[Os grãos da espécie <i>Coffea canephora</i>, conhecida vulgarmente como "robusta", são os que têm um maior teor de cafeína.]]></correct>
+     <incorrect><![CDATA[Os grãos da espécie <i>Coffea canephora</i>, conhecida vulgarmente como "robusta" são os que têm um maior teor de cafeína.]]></incorrect>
+
+   </question>
+
+
+<question id="10" awnser="false">
+
+     <text><![CDATA[É entre a primavera e o verão que ocorre a frutificação do sobreiro.]]></text>
+     <correct><![CDATA[A frutificação do sobreiro ocorre entre o outono e o inverno, e não entre a primavera e o verão.]]></correct>
+     <incorrect><![CDATA[A frutificação do sobreiro ocorre entre o outono e o inverno, e não entre a primavera e o verão.]]></incorrect>
+
+   </question>
+
+
+<question id="11" awnser="true">
+
+     <text><![CDATA[Um soluço começa com uma contração súbita dos músculos responsáveis pela inspiração.]]></text>
+     <correct><![CDATA[Um soluço começa com uma contração súbita dos músculos responsáveis pela inspiração.]]></correct>
+     <incorrect><![CDATA[Um soluço começa com uma contração súbita dos músculos responsáveis pela inspiração.]]></incorrect>
+
+   </question>
+
+
+<question id="12" awnser="true">
+
+     <text><![CDATA[A seleção natural é o processo de evolução da vida na Terra proposto por Charles Darwin.]]></text>
+     <correct><![CDATA[A seleção natural é efetivamente o processo de evolução da vida na Terra proposto por Charles Darwin.]]></correct>
+     <incorrect><![CDATA[A seleção natural é o processo de evolução da vida na Terra proposto por Charles Darwin.]]></incorrect>
+
+   </question>
+
+<question id="13" awnser="false">
+
+     <text><![CDATA[Os neurotransmissores relacionados com o amor são a dopamina, a serotonina, a noradrenalina e a oxitocina.]]></text>
+     <correct><![CDATA[A oxitocina, chamada “hormona” do amor”, não é um mensageiro químico, ou seja, um neurotransmissor.]]></correct>
+     <incorrect><![CDATA[A oxitocina, chamada “hormona” do amor”, não é um mensageiro químico, ou seja, um neurotransmissor.]]></incorrect>
+
+   </question>
+
+
+<question id="14" awnser="true">
+
+     <text><![CDATA[Carl von Linné criou a “nomenclatura binomial”.]]></text>
+     <correct><![CDATA[Carl von Linné (ou Lineu, em Português) criou a nomenclatura binomial. É considerado o pai da taxonomia moderna.]]></correct>
+     <incorrect><![CDATA[Carl von Linné (ou Lineu, em Português) criou a nomenclatura binomial. É considerado o pai da taxonomia moderna.]]></incorrect>
+
+   </question>
+
+
+<question id="15" awnser="true">
+
+     <text><![CDATA[Os morcegos hibernam no período entre novembro e março.]]></text>
+     <correct><![CDATA[O período de hibernação destes animais ocorre de facto entre novembro e março, sendo que é na primavera que se dá a fecundação.]]></correct>
+     <incorrect><![CDATA[O período de hibernação destes animais ocorre de facto entre novembro e março, sendo que é na primavera que se dá a fecundação.]]></incorrect>
+
+   </question>
+
+
+<question id="16" awnser="false">
+
+     <text><![CDATA[Existem cerca de mil matérias-primas unitárias que podem ser usadas em perfumaria.]]></text>
+     <correct><![CDATA[Existem cerca de 5 mil matérias-primas unitárias que podem ser usadas em perfumaria numa infinidade de combinações e de proporções.]]></correct>
+     <incorrect><![CDATA[Na verdade, existem cerca de 5 mil matérias-primas unitárias que podem ser usadas em perfumaria numa infinidade de combinações e de proporções.]]></incorrect>
+
+   </question>
+
+ <question id="17" awnser="true">
+
+     <text><![CDATA[Uma cápsula com farinha pode ter efeitos benéficos numa úlcera gástrica.]]></text>
+     <correct><![CDATA[De facto, um medicamento falso pode ter efeitos terapêuticos benéficos. Quando isto acontece, diz-se que há um “efeito placebo”.]]></correct>
+     <incorrect><![CDATA[De facto, um medicamento falso pode ter efeitos terapêuticos benéficos. Quando isto acontece, diz-se que há um “efeito placebo”.]]></incorrect>
+
+   </question>
+
+ </spot>
+
+ <spot id="1"  waypoint="2" icon="1">
+
+
+<question id="0" awnser="false">
+
+     <text><![CDATA[Poucas são as galáxias que possuem um buraco negro no seu centro.]]></text>
+     <correct><![CDATA[De facto, é hoje largamente aceite que a maioria das galáxias possuem um buraco negro no seu centro.]]></correct>
+     <incorrect><![CDATA[É hoje largamente aceite que a maioria das galáxias possuem um buraco negro no seu centro.]]></incorrect>
+
+   </question>
+
+<question id="1" awnser="true">
+
+     <text><![CDATA[Está cientificamente provado que comer menos 30 a 40% de calorias prolonga a vida de certos animais.]]></text>
+     <correct><![CDATA[Comer menos 30-40% de calorias prolonga, de facto, a vida das leveduras, ratos e macacos.]]></correct>
+     <incorrect><![CDATA[Comer menos 30-40% de calorias prolonga, de facto, a vida das leveduras, ratos e macacos.]]></incorrect>
+
+   </question>
+
+<question id="2" awnser="true">
+
+     <text><![CDATA[A anafilaxia é uma reação alérgica grave, de início rápido e envolvimento sistémico.]]></text>
+     <correct><![CDATA[A anafilaxia é, de facto, uma reação alérgica grave, de início rápido e envolvimento sistémico.]]></correct>
+     <incorrect><![CDATA[A anafilaxia é, de facto, uma reação alérgica grave, de início rápido e envolvimento sistémico.]]></incorrect>
+
+   </question>
+
+<question id="3" awnser="false">
+
+     <text><![CDATA[A próstata tem um papel primordial na ereção.]]></text>
+     <correct><![CDATA[A próstata tem um enorme papel na ejaculação, mas por si só não tem influência no mecanismo da ereção.]]></correct>
+     <incorrect><![CDATA[A próstata tem um enorme papel na ejaculação, mas por si só não tem influência no mecanismo da ereção.]]></incorrect>
+
+   </question>
+
+<question id="4" awnser="true">
+
+     <text><![CDATA[A fibra de cânhamo é imputrescível.]]></text>
+     <correct><![CDATA[A fibra de cânhamo não apodrece em contacto com a água.]]></correct>
+     <incorrect><![CDATA[A fibra de cânhamo não apodrece em contacto com a água.]]></incorrect>
+
+   </question>
+
+<question id="5" awnser="false">
+
+     <text><![CDATA[A oniomania significa o desejo compulsivo de usar o telemóvel.]]></text>
+     <correct><![CDATA[A oniomania é o nome que se dá ao desejo compulsivo de fazer compras.]]> 
+     </correct>
+     <incorrect><![CDATA[A oniomania é o nome que se dá ao desejo compulsivo de fazer compras.]]></incorrect>
+
+   </question>
+  
+  <question id="6" awnser="false">
+
+     <text><![CDATA[Os cágados vendidos nas lojas apenas atingem os 8 cm de tamanho.]]></text>
+     <correct><![CDATA[Estes animais podem ultrapassar os 30cm e os 2,5kg.]]></correct>
+     <incorrect><![CDATA[Estes animais podem ultrapassar os 30cm e os 2,5kg.]]></incorrect>
+
+   </question>
+
+<question id="7" awnser="true">
+
+     <text><![CDATA[A Digitalis (<i>Digitalis</i> L.) é um exemplo de uma planta utilizada no desenvolvimento de fármacos.]]></text>
+     <correct><![CDATA[A Digitalis (<i>Digitalis</i> L.) é, de facto, utilizada no desenvolvimento de fármacos.]]></correct>
+     <incorrect><![CDATA[A Digitalis (<i>Digitalis </i> L.) é, de facto, utilizada no desenvolvimento de fármacos.]]></incorrect>
+
+   </question>
+
+<question id="8" awnser="false">
+
+     <text><![CDATA[<i>Palinurus elephas</i> é a designação científica para elefante.]]></text>
+     <correct><![CDATA[<i>Palinurus elephas</i> é o nome científico da lagosta.]]></correct>
+     <incorrect><![CDATA[<i>Palinurus elephas</i> é o nome científico da lagosta.]]></incorrect>
+
+   </question>
+
+
+<question id="9" awnser="true">
+
+     <text><![CDATA[A russa Valentina Tereshkova foi a primeira mulher a ir ao espaço.]]></text>
+     <correct><![CDATA[Em 1963, Valentina Tereshkova tornou-se na primeira mulher a ir ao espaço.]]></correct>
+     <incorrect><![CDATA[Em 1963, Valentina Tereshkova tornou-se na primeira mulher a ir ao espaço.]]></incorrect>
+
+   </question>
+
+
+<question id="10" awnser="false">
+
+     <text><![CDATA[Existem mais de 50 espécies de morcegos em Portugal Continental.]]></text>
+     <correct><![CDATA[Existem 25 espécies de morcegos em Portugal Continental.]]></correct>
+     <incorrect><![CDATA[Existem 25 espécies de morcegos em Portugal Continental.]]></incorrect>
+
+   </question>
+
+
+<question id="11" awnser="false">
+
+     <text><![CDATA[O priolo é uma espécie endémica do arquipélago da Madeira.]]></text>
+     <correct><![CDATA[O priolo é uma ave endémica dos Açores.]]></correct>
+     <incorrect><![CDATA[O priolo é uma ave endémica dos Açores.]]></incorrect>
+
+   </question>
+
+<question id="12" awnser="false">
+
+     <text><![CDATA[A hemocromatose consiste na acumulação de potássio no organismo.]]></text>
+     <correct><![CDATA[Na hemocromatose, é o ferro que se acumula no organismo.]]></correct>
+     <incorrect><![CDATA[Na hemocromatose, é o ferro que se acumula no organismo.]]></incorrect>
+
+   </question>
+
+<question id="13" awnser="false">
+
+     <text><![CDATA[O tomate é uma importante fonte de licopeno, um radical livre com propriedades antioxidantes.]]></text>
+     <correct><![CDATA[O licopeno, presente no tomate, é um carotenoide com propriedades benéficas para o organismo.]]></correct>
+     <incorrect><![CDATA[O licopeno, presente no tomate, é um carotenoide com propriedades benéficas para o organismo.]]></incorrect>
+
+   </question>
+
+<question id="14" awnser="true">
+
+     <text><![CDATA[A frequência que o vidro emite quando vibra chama-se frequência de ressonância.]]></text>
+     <correct><![CDATA[A frequência que o vidro emite quando vibra tem por nome frequência de ressonância.]]></correct>
+     <incorrect><![CDATA[A frequência que o vidro emite quando vibra tem por nome frequência de ressonância.]]></incorrect>
+
+   </question>
+
+<question id="15" awnser="false">
+
+     <text><![CDATA[O medronho, flor do medronheiro, é usado na produção de licores e aguardentes.]]></text>
+     <correct><![CDATA[O medronho não é uma flor, mas sim um fruto comestível. No entanto, é verdade que é utilizado na produção de licores e aguardentes.]]></correct>
+     <incorrect><![CDATA[O medronho não é uma flor, mas sim um fruto comestível. No entanto, é verdade que é utilizado na produção de licores e aguardentes.]]></incorrect>
+
+   </question>
+
+<question id="16" awnser="true">
+
+     <text><![CDATA[Uma pegada de dinossauro é um icnofóssil.]]></text>
+     <correct><![CDATA[A pegada de um dinossauro é um icnofóssil, ou seja, um vestígio de atividade orgânica.]]></correct>
+     <incorrect><![CDATA[A pegada de um dinossauro é um icnofóssil, ou seja, um vestígio de atividade orgânica.]]></incorrect>
+
+   </question>
+
+<question id="17" awnser="true">
+
+     <text><![CDATA[Na Geometria Euclidiana duas retas estritamente paralelas nunca se intersetam.]]></text>
+     <correct><![CDATA[De facto, na Geometria Euclidiana, duas retas estritamente paralelas nunca se intersetam.]]></correct>
+     <incorrect><![CDATA[Na Geometria Euclidiana, duas retas estritamente paralelas nunca se intersetam.]]></incorrect>
+
+   </question>
+
+</spot>
+
+       <spot id="2"  waypoint="3" icon="2" type="challenge"/>
+
+
+</level>
+
+
+
+
+
+</game>
